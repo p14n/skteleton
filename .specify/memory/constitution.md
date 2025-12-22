@@ -1,50 +1,221 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+═══════════════════════════════════════════════════════════════════════════════
+SYNC IMPACT REPORT
+═══════════════════════════════════════════════════════════════════════════════
+Version Change: NONE → 1.0.0 (Initial ratification)
+
+Modified Principles: N/A (Initial creation)
+
+Added Sections:
+  - Core Principles (7 principles)
+  - Component Architecture
+  - Development Workflow
+  - Governance
+
+Removed Sections: N/A
+
+Templates Requiring Updates:
+  ✅ .specify/templates/plan-template.md - Constitution Check section aligned
+  ✅ .specify/templates/spec-template.md - Requirements structure aligned
+  ✅ .specify/templates/tasks-template.md - Task categorization aligned
+  ✅ .specify/templates/agent-file-template.md - No changes required
+
+Follow-up TODOs: None
+═══════════════════════════════════════════════════════════════════════════════
+-->
+
+# Skteleton Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Component-First Architecture
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+Every feature MUST be developed as a standalone component module. Components MUST be:
+- Self-contained with clear boundaries and minimal dependencies
+- Independently buildable and testable via Mill build tool
+- Documented with clear purpose and API contracts
+- Located in the `components/` directory with consistent structure
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+**Rationale**: Component isolation enables parallel development, easier testing, and clearer
+dependency management. This aligns with the event-driven architecture pattern already
+established in the project (event-protocol, event-system).
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### II. Specification-Driven Development
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+All features MUST begin with a complete specification before implementation. The specification
+workflow is NON-NEGOTIABLE:
+1. Feature specification created via `/speckit.specify` command
+2. Implementation plan generated via `/speckit.plan` command
+3. Tasks broken down via `/speckit.tasks` command
+4. Implementation executed via `/speckit.implement` command
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+**Rationale**: Specification-first development ensures clear requirements, reduces rework,
+enables better estimation, and creates living documentation. The speckit framework enforces
+this discipline systematically.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+### III. Test-First Development (NON-NEGOTIABLE)
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+TDD is mandatory for all production code. The cycle MUST be strictly followed:
+1. Write tests based on specification acceptance criteria
+2. Verify tests FAIL (red phase)
+3. Implement minimum code to pass tests (green phase)
+4. Refactor while keeping tests green
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+All components MUST include JUnit5 test modules using Kotlin test framework. Test coverage
+MUST include unit, integration, and contract tests as appropriate.
+
+**Rationale**: Test-first development catches defects early, drives better design, provides
+regression safety, and serves as executable documentation. The Mill build structure already
+supports this with dedicated test modules.
+
+### IV. Independent User Stories
+
+Features MUST be decomposed into independently testable user stories with clear priorities
+(P1, P2, P3). Each user story MUST:
+- Deliver standalone value that can be demonstrated independently
+- Be implementable without requiring other stories to be complete
+- Include specific acceptance scenarios in Given-When-Then format
+- Map to discrete tasks in the implementation plan
+
+**Rationale**: Independent stories enable incremental delivery, parallel development, early
+validation, and flexible prioritization. This supports MVP-first and iterative delivery models.
+
+### V. Observability and Debuggability
+
+All components MUST be observable and debuggable through:
+- Structured logging with appropriate log levels
+- Clear error messages with actionable context
+- Event tracing for event-driven interactions
+- Text-based I/O protocols where applicable (stdin/stdout for CLI tools)
+
+**Rationale**: Observability is essential for debugging distributed event-driven systems.
+Text-based protocols and structured logging enable inspection, testing, and troubleshooting
+without specialized tools.
+
+### VI. Semantic Versioning and Breaking Changes
+
+All components MUST follow semantic versioning (MAJOR.MINOR.PATCH):
+- MAJOR: Breaking API changes, removed functionality, incompatible protocol changes
+- MINOR: New features, new APIs, backward-compatible enhancements
+- PATCH: Bug fixes, documentation updates, non-functional improvements
+
+Breaking changes MUST include:
+- Migration guide in component documentation
+- Deprecation warnings in prior MINOR version when possible
+- Update to dependent components and integration tests
+
+**Rationale**: Semantic versioning provides clear expectations for consumers, enables safe
+upgrades, and forces deliberate consideration of breaking changes in component-based systems.
+
+### VII. Simplicity and YAGNI
+
+Complexity MUST be justified. Default to the simplest solution that meets requirements:
+- Avoid premature abstraction and over-engineering
+- Implement features only when needed (YAGNI - You Aren't Gonna Need It)
+- Prefer composition over inheritance
+- Keep Kotlin code idiomatic and readable
+
+Any deviation from simplicity MUST be documented in the implementation plan's Complexity
+Tracking section with explicit justification.
+
+**Rationale**: Simplicity reduces cognitive load, maintenance burden, and defect rates.
+The Complexity Tracking mechanism ensures complexity is conscious and justified rather than
+accidental.
+
+## Component Architecture
+
+### Technology Stack
+
+- **Language**: Kotlin 2.0.21
+- **Build Tool**: Mill 1.1.0-RC3
+- **Testing**: JUnit5 with Kotlin test framework
+- **Module Structure**: Mill modules under `components/` directory
+
+### Component Structure Requirements
+
+Each component MUST follow this structure:
+```
+components/
+└── component-name/
+    ├── src/
+    │   └── [component source code]
+    └── test/
+        └── [JUnit5 tests]
+```
+
+Components MUST declare dependencies explicitly via Mill's `moduleDeps` mechanism.
+
+### Event-Driven Patterns
+
+Components using event-driven patterns MUST:
+- Define event protocols in dedicated protocol modules (e.g., `event-protocol`)
+- Implement event handlers in separate system modules (e.g., `event-system`)
+- Document event contracts and message formats
+- Include contract tests for event interactions
+
+## Development Workflow
+
+### Specification Workflow
+
+1. **Specify**: Create feature specification with user stories and acceptance criteria
+2. **Plan**: Generate implementation plan with technical context and structure decisions
+3. **Task Breakdown**: Create dependency-ordered task list organized by user story
+4. **Implement**: Execute tasks in phases (Setup → Foundational → User Stories → Polish)
+5. **Validate**: Verify each user story independently against acceptance criteria
+
+### Constitution Compliance Gates
+
+Before Phase 0 research and after Phase 1 design, implementations MUST verify:
+- [ ] Component isolation maintained (Principle I)
+- [ ] Specification complete and approved (Principle II)
+- [ ] Tests written and failing before implementation (Principle III)
+- [ ] User stories are independently testable (Principle IV)
+- [ ] Observability mechanisms included (Principle V)
+- [ ] Versioning strategy documented (Principle VI)
+- [ ] Complexity justified in plan (Principle VII)
+
+### Code Review Requirements
+
+All code changes MUST:
+- Pass all tests (unit, integration, contract as applicable)
+- Include tests for new functionality
+- Update documentation for API changes
+- Verify constitution compliance
+- Build successfully via Mill
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+### Authority and Precedence
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+This constitution supersedes all other development practices and guidelines. In case of
+conflict between this constitution and other documentation, the constitution takes precedence.
+
+### Amendment Process
+
+Constitution amendments MUST:
+1. Document the proposed change with clear rationale
+2. Identify impact on existing components and templates
+3. Update version according to semantic versioning rules:
+   - MAJOR: Principle removal or incompatible governance changes
+   - MINOR: New principle or materially expanded guidance
+   - PATCH: Clarifications, wording improvements, non-semantic refinements
+4. Propagate changes to all dependent templates and documentation
+5. Include migration plan for existing code if applicable
+
+### Compliance Review
+
+Constitution compliance MUST be verified:
+- During specification review (before implementation begins)
+- During code review (before merging changes)
+- During retrospectives (to identify systemic violations)
+
+Violations MUST be either:
+- Corrected to achieve compliance, OR
+- Explicitly justified in the Complexity Tracking section with approval
+
+### Living Documentation
+
+The constitution is a living document. Updates MUST maintain the Sync Impact Report at the
+top of this file documenting version history and template synchronization status.
+
+**Version**: 1.0.0 | **Ratified**: 2025-12-22 | **Last Amended**: 2025-12-22

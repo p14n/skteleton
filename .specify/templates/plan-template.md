@@ -31,7 +31,15 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+Verify compliance with Skteleton Constitution (v1.0.0):
+
+- [ ] **Component-First Architecture** (Principle I): Feature designed as standalone component in `components/` directory
+- [ ] **Specification-Driven Development** (Principle II): Complete specification exists before implementation planning
+- [ ] **Test-First Development** (Principle III): Test strategy defined; tests will be written before implementation
+- [ ] **Independent User Stories** (Principle IV): User stories are independently testable with clear priorities
+- [ ] **Observability and Debuggability** (Principle V): Logging, error handling, and debugging strategy defined
+- [ ] **Semantic Versioning** (Principle VI): Versioning strategy documented; breaking changes identified
+- [ ] **Simplicity and YAGNI** (Principle VII): Complexity justified in Complexity Tracking section if applicable
 
 ## Project Structure
 
