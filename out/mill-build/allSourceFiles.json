@@ -1,0 +1,9 @@
+{
+    "value": [
+        "ref:v0:d36b1aa2:/Users/dean.chapman/dev/experiment/skteleton/out/mill-build/generatedScriptSources.dest/support/build_/BuildFileImpl.scala",
+        "ref:v0:526ae096:/Users/dean.chapman/dev/experiment/skteleton/out/mill-build/generatedScriptSources.dest/support/build_/MillMiscInfo.scala",
+        "ref:v0:7769ccd9:/Users/dean.chapman/dev/experiment/skteleton/out/mill-build/generatedScriptSources.dest/wrapped/build_/build.mill"
+    ],
+    "valueHash": -219387194,
+    "inputsHash": -205766314
+}

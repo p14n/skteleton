@@ -1,0 +1,22 @@
+{
+    "value": [
+        "qref:v1:2ff49f8c:/Users/dean.chapman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler/2.0.21/kotlin-compiler-2.0.21.jar",
+        "qref:v1:d549624f:/Users/dean.chapman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler/2.0.21/kotlin-scripting-compiler-2.0.21.jar",
+        "qref:v1:c5261888:/Users/dean.chapman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl/2.0.21/kotlin-scripting-compiler-impl-2.0.21.jar",
+        "qref:v1:9b77c6b4:/Users/dean.chapman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.0.21/kotlin-scripting-jvm-2.0.21.jar",
+        "qref:v1:33103db1:/Users/dean.chapman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-libs-kotlinlib-worker_3/1.1.0-RC3/mill-libs-kotlinlib-worker_3-1.1.0-RC3.jar",
+        "qref:v1:c5560aea:/Users/dean.chapman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/2.0.21/kotlin-stdlib-jdk8-2.0.21.jar",
+        "qref:v1:c0bf3659:/Users/dean.chapman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/2.0.21/kotlin-script-runtime-2.0.21.jar",
+        "qref:v1:194f1701:/Users/dean.chapman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10.jar",
+        "qref:v1:b54a1849:/Users/dean.chapman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/intellij/deps/trove4j/1.0.20200330/trove4j-1.0.20200330.jar",
+        "qref:v1:f73202bc:/Users/dean.chapman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.6.4/kotlinx-coroutines-core-jvm-1.6.4.jar",
+        "qref:v1:8c98af12:/Users/dean.chapman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/2.0.21/kotlin-scripting-common-2.0.21.jar",
+        "qref:v1:10f783b7:/Users/dean.chapman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.0.21/kotlin-stdlib-2.0.21.jar",
+        "qref:v1:e8e2f30d:/Users/dean.chapman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.24.1/jline-3.24.1.jar",
+        "qref:v1:ee856f0d:/Users/dean.chapman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/2.0.21/kotlin-stdlib-jdk7-2.0.21.jar",
+        "qref:v1:049b82f9:/Users/dean.chapman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.21/kotlin-stdlib-common-1.6.21.jar",
+        "qref:v1:3108dab7:/Users/dean.chapman/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar"
+    ],
+    "valueHash": -365400745,
+    "inputsHash": 2106737910
+}

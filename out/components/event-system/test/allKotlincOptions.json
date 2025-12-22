@@ -1,0 +1,12 @@
+{
+    "value": [
+        "-no-stdlib",
+        "-language-version",
+        "2.0",
+        "-api-version",
+        "2.0",
+        "-Xfriend-paths=/Users/dean.chapman/dev/experiment/skteleton/out/components/event-system/compile.dest/classes"
+    ],
+    "valueHash": 226067353,
+    "inputsHash": 115584298
+}

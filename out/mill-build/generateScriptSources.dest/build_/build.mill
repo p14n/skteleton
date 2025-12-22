@@ -1,0 +1,52 @@
+package build_
+import _root_.{build_ => $file}
+import build_.{package_ => build}
+import _root_.mill.runner.MillBuildRootModule
+@_root_.scala.annotation.nowarn
+object MillMiscInfo extends mill.main.RootModule.Info(
+  Vector("/Users/dean.chapman/dev/experiment/skteleton/out/mill-launcher/0.12.5.jar"),
+  "/Users/dean.chapman/dev/experiment/skteleton",
+  "/Users/dean.chapman/dev/experiment/skteleton/out",
+  "/Users/dean.chapman/dev/experiment/skteleton"
+)
+import MillMiscInfo._
+
+object package_ extends package_{
+  
+  override lazy val millDiscover: _root_.mill.define.Discover = _root_.mill.define.Discover[this.type]
+
+}
+abstract class package_ extends _root_.mill.main.RootModule()  {
+//MILL_ORIGINAL_FILE_PATH=/Users/dean.chapman/dev/experiment/skteleton/build.mill
+//MILL_USER_CODE_START_MARKER
+
+
+import mill._
+import mill.kotlinlib._
+
+trait CommonKotlinModule extends KotlinModule {
+  def kotlinVersion = "2.0.21"
+  
+  object test extends KotlinTests with TestModule.Junit5 {
+    def ivyDeps = Agg(
+      ivy"org.jetbrains.kotlin:kotlin-test-junit5:${kotlinVersion()}",
+      ivy"org.junit.jupiter:junit-jupiter:5.10.3"
+    )
+  }
+}
+
+object components extends Module {
+  
+  object `event-protocol` extends CommonKotlinModule {
+    def millSourcePath = super.millSourcePath
+  }
+  
+  object `event-system` extends CommonKotlinModule {
+    def millSourcePath = super.millSourcePath
+    
+    def moduleDeps = Seq(components.`event-protocol`)
+  }
+}
+
+
+}

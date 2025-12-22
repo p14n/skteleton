@@ -1,0 +1,6114 @@
+[
+  [
+    "call mill.scalalib.TestModule.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.scalalib.JavaModule.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.define.Module.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.define.Module$millInternal$.<clinit>()void",
+    0
+  ],
+  [
+    "def build_.package_$components$#millModuleBasePath()mill.define.Ctx$BasePath",
+    -901188757
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#toString()java.lang.String",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#toString()java.lang.String",
+    -901188757
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#millModuleExternal()mill.define.Ctx$External",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#millModuleSegments()mill.define.Segments",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#millModuleBasePath()mill.define.Ctx$BasePath",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$define$Module$$millModuleDirectChildrenImpl$lzycompute()scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "call build_.package_$components$event$minussystem$!mill$define$Module$$millModuleDirectChildrenImpl$lzycompute()scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$define$Module$$millModuleDirectChildrenImpl()scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#millModuleBasePath()mill.define.Ctx$BasePath",
+    -901188757
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#millModuleDirectChildren()scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "call mill.define.Module.millModuleBasePath$(mill.define.Module)mill.define.Ctx$BasePath",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#millModuleBasePath()mill.define.Ctx$BasePath",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$#mill$define$Module$$millModuleDirectChildrenImpl$lzycompute()scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "call build_.package_$components$!mill$define$Module$$millModuleDirectChildrenImpl$lzycompute()scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$#mill$define$Module$$millModuleDirectChildrenImpl()scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#millInternal$lzycompute$3()void",
+    -901188757
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$!millInternal$lzycompute$3()void",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#millInternal()mill.define.Module$millInternal$",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$#millModuleShared()mill.define.Ctx$Foreign",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#millModuleExternal()mill.define.Ctx$External",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#millInternal$lzycompute$4()void",
+    -901188757
+  ],
+  [
+    "call build_.package_$components$event$minussystem$!millInternal$lzycompute$4()void",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#millInternal()mill.define.Module$millInternal$",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#millModuleSegments()mill.define.Segments",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$#millInternal$lzycompute$2()void",
+    -901188757
+  ],
+  [
+    "call build_.package_$components$!millInternal$lzycompute$2()void",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$#millInternal()mill.define.Module$millInternal$",
+    -901188757
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#millModuleSegments()mill.define.Segments",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#millModuleShared()mill.define.Ctx$Foreign",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$define$Module$$millModuleDirectChildrenImpl$lzycompute()scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$!mill$define$Module$$millModuleDirectChildrenImpl$lzycompute()scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$define$Module$$millModuleDirectChildrenImpl()scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#toString()java.lang.String",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#millSourcePath()os.Path",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#millModuleShared()mill.define.Ctx$Foreign",
+    -901188757
+  ],
+  [
+    "call mill.define.Module.mill$define$Module$$millModuleDirectChildrenImpl$(mill.define.Module)scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$define$Module$$millModuleDirectChildrenImpl$lzycompute()scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$!mill$define$Module$$millModuleDirectChildrenImpl$lzycompute()scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$define$Module$$millModuleDirectChildrenImpl()scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "external mill.define.Module$Internal",
+    -901188757
+  ],
+  [
+    "external mill.define.Module$millInternal$",
+    -901188757
+  ],
+  [
+    "call mill.define.Module$millInternal$!<init>(mill.define.Module)void",
+    -901188757
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#millInternal$lzycompute$1()void",
+    -901188757
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$!millInternal$lzycompute$1()void",
+    -901188757
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#millInternal()mill.define.Module$millInternal$",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$#millModuleDirectChildren()scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#millSourcePath()os.Path",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$#millSourcePath()os.Path",
+    -901188757
+  ],
+  [
+    "call mill.define.Module.millModuleSegments$(mill.define.Module)mill.define.Segments",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$#millModuleSegments()mill.define.Segments",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#millModuleDirectChildren()scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "call mill.define.Module.millModuleShared$(mill.define.Module)mill.define.Ctx$Foreign",
+    -901188757
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#millModuleShared()mill.define.Ctx$Foreign",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$#millModuleExternal()mill.define.Ctx$External",
+    -901188757
+  ],
+  [
+    "call mill.define.Module.millSourcePath$(mill.define.Module)os.Path",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#millSourcePath()os.Path",
+    -901188757
+  ],
+  [
+    "call mill.define.Module.millModuleDirectChildren$(mill.define.Module)scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#millModuleDirectChildren()scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "call mill.define.Module.millModuleExternal$(mill.define.Module)mill.define.Ctx$External",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#millModuleExternal()mill.define.Ctx$External",
+    -901188757
+  ],
+  [
+    "external mill.define.Module",
+    -901188757
+  ],
+  [
+    "call mill.define.Module.toString$(mill.define.Module)java.lang.String",
+    -901188757
+  ],
+  [
+    "def build_.package_$components$#toString()java.lang.String",
+    -901188757
+  ],
+  [
+    "external java.lang.Object",
+    -901188757
+  ],
+  [
+    "external scala.collection.IterableOnceOps",
+    -901188757
+  ],
+  [
+    "external scala.collection.IterableOnce",
+    -901188757
+  ],
+  [
+    "external scala.collection.IterableOps",
+    1591401025
+  ],
+  [
+    "external scala.collection.SeqOps",
+    690212268
+  ],
+  [
+    "external scala.Equals",
+    -901188757
+  ],
+  [
+    "external scala.Function1",
+    -901188757
+  ],
+  [
+    "external scala.PartialFunction",
+    -1802377514
+  ],
+  [
+    "external scala.collection.IterableFactoryDefaults",
+    690212268
+  ],
+  [
+    "external scala.collection.Iterable",
+    -210976489
+  ],
+  [
+    "external scala.collection.Seq",
+    1169448047
+  ],
+  [
+    "external scala.collection.immutable.Iterable",
+    -1112165246
+  ],
+  [
+    "external scala.collection.immutable.SeqOps",
+    -210976489
+  ],
+  [
+    "external scala.collection.immutable.Seq",
+    -1054882445
+  ],
+  [
+    "call mill.scalalib.JavaModule$JavaModuleTests.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.scalalib.WithZincWorker.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.scalalib.bsp.BspModule.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.<clinit>()void",
+    0
+  ],
+  [
+    "external scala.Product",
+    -1802377514
+  ],
+  [
+    "external java.io.Serializable",
+    -901188757
+  ],
+  [
+    "external scala.Option",
+    -210976489
+  ],
+  [
+    "external mill.api.Ctx$Dest",
+    -901188757
+  ],
+  [
+    "external mill.scalalib.api.ZincWorkerApi",
+    -901188757
+  ],
+  [
+    "external mill.api.AggWrapper$Agg",
+    690212268
+  ],
+  [
+    "call mill.scalalib.RunModule.<clinit>()void",
+    0
+  ],
+  [
+    "external mill.define.Task$Ops",
+    -901188757
+  ],
+  [
+    "external mill.define.Applicative$Applyable",
+    -901188757
+  ],
+  [
+    "external mill.define.Task",
+    -1802377514
+  ],
+  [
+    "external scala.collection.MapOps",
+    -1112165246
+  ],
+  [
+    "external scala.collection.MapFactoryDefaults",
+    -2013354003
+  ],
+  [
+    "external scala.collection.Map",
+    268259290
+  ],
+  [
+    "external scala.collection.immutable.MapOps",
+    -2013354003
+  ],
+  [
+    "external scala.collection.immutable.Map",
+    536518580
+  ],
+  [
+    "external os.ReadablePath",
+    -901188757
+  ],
+  [
+    "external os.BasePath",
+    -901188757
+  ],
+  [
+    "external os.BasePathImpl",
+    -1802377514
+  ],
+  [
+    "external os.FilePath",
+    -1802377514
+  ],
+  [
+    "external os.Path",
+    -1112165246
+  ],
+  [
+    "external java.lang.Comparable",
+    -901188757
+  ],
+  [
+    "external java.lang.CharSequence",
+    -901188757
+  ],
+  [
+    "external java.lang.String",
+    690212268
+  ],
+  [
+    "external scala.collection.StrictOptimizedIterableOps",
+    690212268
+  ],
+  [
+    "external scala.collection.StrictOptimizedSeqOps",
+    479235779
+  ],
+  [
+    "external scala.collection.immutable.StrictOptimizedSeqOps",
+    -632929467
+  ],
+  [
+    "external scala.collection.LinearSeqOps",
+    -210976489
+  ],
+  [
+    "external scala.collection.immutable.LinearSeqOps",
+    -1323141735
+  ],
+  [
+    "external scala.collection.LinearSeq",
+    57282801
+  ],
+  [
+    "external scala.collection.immutable.LinearSeq",
+    1073037160
+  ],
+  [
+    "external scala.collection.AbstractIterable",
+    -1112165246
+  ],
+  [
+    "external scala.collection.AbstractSeq",
+    57282801
+  ],
+  [
+    "external scala.collection.immutable.AbstractSeq",
+    -997599644
+  ],
+  [
+    "external scala.collection.generic.DefaultSerializable",
+    -1802377514
+  ],
+  [
+    "external scala.collection.StrictOptimizedLinearSeqOps",
+    -632929467
+  ],
+  [
+    "external scala.collection.immutable.List",
+    1302168364
+  ],
+  [
+    "def build_.package_$components$#build_$package_$components$$$outer()build_.package_",
+    1305150305
+  ],
+  [
+    "call build_.package_$components$#build_$package_$components$$$outer()build_.package_",
+    1305150305
+  ],
+  [
+    "call scala.collection.immutable.$colon$colon.<clinit>()void",
+    0
+  ],
+  [
+    "external scala.collection.immutable.$colon$colon",
+    -500209150
+  ],
+  [
+    "call scala.collection.immutable.$colon$colon!<init>(java.lang.Object,scala.collection.immutable.List)void",
+    -99229543
+  ],
+  [
+    "call scala.collection.immutable.Nil$.<clinit>()void",
+    0
+  ],
+  [
+    "call build_.package_$components$.<clinit>()void",
+    0
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$.<clinit>()void",
+    0
+  ],
+  [
+    "call build_.package_$components$#millModuleBasePath()mill.define.Ctx$BasePath",
+    -901188757
+  ],
+  [
+    "call mill.scalalib.TestModule$JavaModuleBase.<clinit>()void",
+    0
+  ],
+  [
+    "external sourcecode.SourceValue",
+    -901188757
+  ],
+  [
+    "external sourcecode.File",
+    690212268
+  ],
+  [
+    "call sourcecode.File!<init>(java.lang.String)void",
+    1380424536
+  ],
+  [
+    "call mill.scalalib.GenIdeaModule.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.define.Caller.<clinit>()void",
+    0
+  ],
+  [
+    "call build_.package_$components$#millModuleSegments()mill.define.Segments",
+    -901188757
+  ],
+  [
+    "call mill.define.Ctx$.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.define.Module.$init$(mill.define.Module)void",
+    -901188757
+  ],
+  [
+    "external sourcecode.Line",
+    690212268
+  ],
+  [
+    "call sourcecode.Line!<init>(int)void",
+    690212268
+  ],
+  [
+    "call sourcecode.File.<clinit>()void",
+    0
+  ],
+  [
+    "call build_.package_$components$#millModuleShared()mill.define.Ctx$Foreign",
+    -901188757
+  ],
+  [
+    "call build_.package_$CommonKotlinModule.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.scalalib.CoursierModule.<clinit>()void",
+    0
+  ],
+  [
+    "call sourcecode.Line.<clinit>()void",
+    0
+  ],
+  [
+    "call build_.package_$components$#millModuleExternal()mill.define.Ctx$External",
+    -901188757
+  ],
+  [
+    "call sourcecode.Enclosing.<clinit>()void",
+    0
+  ],
+  [
+    "external mill.define.Caller",
+    690212268
+  ],
+  [
+    "call mill.define.Caller!<init>(java.lang.Object)void",
+    -210976489
+  ],
+  [
+    "external mill.define.Ctx",
+    -901188757
+  ],
+  [
+    "external mill.moduledefs.Cacher",
+    -901188757
+  ],
+  [
+    "external mill.define.Cacher",
+    -1802377514
+  ],
+  [
+    "external mill.define.Module$BaseClass",
+    1591401025
+  ],
+  [
+    "call mill.define.Module$BaseClass!<init>(mill.define.Ctx)void",
+    690212268
+  ],
+  [
+    "external sourcecode.Enclosing",
+    690212268
+  ],
+  [
+    "call sourcecode.Enclosing!<init>(java.lang.String)void",
+    1380424536
+  ],
+  [
+    "call mill.scalalib.OfflineSupportModule.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.define.Module$BaseClass.<clinit>()void",
+    0
+  ],
+  [
+    "def build_.package_$CommonKotlinModule.$init$(build_.package_$CommonKotlinModule)void",
+    1069308260
+  ],
+  [
+    "call build_.package_$CommonKotlinModule.$init$(build_.package_$CommonKotlinModule)void",
+    1069308260
+  ],
+  [
+    "external mill.scalalib.OfflineSupportModule",
+    -1802377514
+  ],
+  [
+    "call mill.scalalib.OfflineSupportModule.$init$(mill.scalalib.OfflineSupportModule)void",
+    -1802377514
+  ],
+  [
+    "external mill.define.Ctx$BasePath",
+    690212268
+  ],
+  [
+    "external mill.define.Ctx$External",
+    690212268
+  ],
+  [
+    "external mill.define.Ctx$Foreign",
+    690212268
+  ],
+  [
+    "external mill.define.Segments",
+    690212268
+  ],
+  [
+    "external mill.define.LowPriCtx",
+    -901188757
+  ],
+  [
+    "external mill.define.Ctx$",
+    -1802377514
+  ],
+  [
+    "call mill.define.Ctx$#make(sourcecode.Enclosing,sourcecode.Line,mill.define.Ctx$BasePath,mill.define.Segments,mill.define.Ctx$External,mill.define.Ctx$Foreign,sourcecode.File,mill.define.Caller)mill.define.Ctx",
+    -575646666
+  ],
+  [
+    "call mill.scalalib.SemanticDbJavaModule.<clinit>()void",
+    0
+  ],
+  [
+    "external mill.define.BaseModule0",
+    -1802377514
+  ],
+  [
+    "external mill.define.BaseModule",
+    -210976489
+  ],
+  [
+    "call build_.package_#millModuleSegments()mill.define.Segments",
+    -1112165246
+  ],
+  [
+    "call build_.package_#millModuleExternal()mill.define.Ctx$External",
+    -1112165246
+  ],
+  [
+    "call build_.package_#millModuleShared()mill.define.Ctx$Foreign",
+    -1112165246
+  ],
+  [
+    "call build_.package_#millModuleBasePath()mill.define.Ctx$BasePath",
+    -1112165246
+  ],
+  [
+    "call build_.package_.<clinit>()void",
+    0
+  ],
+  [
+    "def build_.package_$components$#<init>(build_.package_)void",
+    -2077530085
+  ],
+  [
+    "call build_.package_$components$!<init>(build_.package_)void",
+    -2077530085
+  ],
+  [
+    "def build_.package_#components$lzycompute$1()void",
+    -1169273121
+  ],
+  [
+    "call build_.package_!components$lzycompute$1()void",
+    -1169273121
+  ],
+  [
+    "def build_.package_#components()build_.package_$components$",
+    907776184
+  ],
+  [
+    "call build_.package_#components()build_.package_$components$",
+    907776184
+  ],
+  [
+    "external mill.define.TaskModule",
+    -1802377514
+  ],
+  [
+    "call mill.scalalib.TestModule.testTask$(mill.scalalib.TestModule,mill.define.Task,mill.define.Task)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#testTask(mill.define.Task,mill.define.Task)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#transitiveRunModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#printDepsTree(boolean,mill.define.Task,scala.collection.immutable.List)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#allBomDeps()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$super$bspBuildTarget()mill.scalalib.bsp.BspBuildTarget",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runModuleDepsChecked()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#showModuleDeps$default$1()boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#transitiveModuleCompileModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$recRunModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call build_.package_$components$event$minussystem$!mill$scalalib$JavaModule$$recRunModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$recRunModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$super$zincWorker()mill.define.ModuleRef",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#processDependency(boolean)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#bspJvmBuildTargetTask()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$recModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$!mill$scalalib$JavaModule$$recModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$recModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#recursiveModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$recRunModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$!mill$scalalib$JavaModule$$recRunModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$recRunModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#compileModuleDepsChecked()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#transitiveRunModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#allBomDeps()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#moduleDepsChecked()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#ivyDepsTree$default$1()mill.scalalib.IvyDepsTreeArgs",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.mill$scalalib$JavaModule$$recRunModuleDeps$(mill.scalalib.JavaModule)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$recRunModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$!mill$scalalib$JavaModule$$recRunModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$recRunModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$recCompileModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$!mill$scalalib$JavaModule$$recCompileModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$recCompileModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#transitiveModuleRunModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#ivyDepsTree$default$1()mill.scalalib.IvyDepsTreeArgs",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#transitiveModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#processedIvyDeps()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.RunModule.$init$(mill.scalalib.RunModule)void",
+    -797362743
+  ],
+  [
+    "external mill.scalalib.SemanticDbJavaModule",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.SemanticDbJavaModule.$init$(mill.scalalib.SemanticDbJavaModule)void",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.$init$(mill.scalalib.JavaModule)void",
+    -797362743
+  ],
+  [
+    "external mill.scalalib.TestModule$JavaModuleBase",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.TestModule$JavaModuleBase.$init$(mill.scalalib.TestModule$JavaModuleBase)void",
+    -797362743
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.$init$(mill.kotlinlib.KotlinModule)void",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.bsp.BspModule.$init$(mill.scalalib.bsp.BspModule)void",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#defaultResolver()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#repositoriesTask()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#resolveCoursierDependency()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#coursierCacheCustomizer()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#resolveDeps$default$3()scala.Option",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#resolveDeps(mill.define.Task,boolean,scala.Option)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#resolutionCustomizer()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.CoursierModule.repositoriesTask$(mill.scalalib.CoursierModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#repositoriesTask()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#resolveDeps(mill.define.Task,boolean)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#resolveDeps(mill.define.Task,boolean)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#coursierCacheCustomizer()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#resolveCoursierDependency()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#bindDependency()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.CoursierModule.resolutionCustomizer$(mill.scalalib.CoursierModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#resolutionCustomizer()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#defaultResolver()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.CoursierModule.coursierCacheCustomizer$(mill.scalalib.CoursierModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#coursierCacheCustomizer()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#resolveDeps(mill.define.Task,boolean,scala.Option)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#resolveDeps$default$3()scala.Option",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.CoursierModule.resolveDeps$default$3$(mill.scalalib.CoursierModule)scala.Option",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#resolveDeps$default$3()scala.Option",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#bindDependency()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#resolveDeps$default$2()boolean",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.CoursierModule.defaultResolver$(mill.scalalib.CoursierModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#defaultResolver()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#resolveDeps$default$2()boolean",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.CoursierModule.resolveDeps$(mill.scalalib.CoursierModule,mill.define.Task,boolean)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#resolveDeps(mill.define.Task,boolean)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mapDependencies()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#resolutionParams()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mapDependencies()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.CoursierModule.bindDependency$(mill.scalalib.CoursierModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#bindDependency()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#resolutionParams()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.CoursierModule.resolveDeps$default$2$(mill.scalalib.CoursierModule)boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#resolveDeps$default$2()boolean",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.CoursierModule.resolutionParams$(mill.scalalib.CoursierModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#resolutionParams()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.CoursierModule.resolveCoursierDependency$(mill.scalalib.CoursierModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#resolveCoursierDependency()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.CoursierModule.resolveDeps$(mill.scalalib.CoursierModule,mill.define.Task,boolean,scala.Option)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#resolveDeps(mill.define.Task,boolean,scala.Option)mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.CoursierModule.mapDependencies$(mill.scalalib.CoursierModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mapDependencies()mill.define.Task",
+    -797362743
+  ],
+  [
+    "external mill.scalalib.CoursierModule",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.CoursierModule.$init$(mill.scalalib.CoursierModule)void",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#ideaConfigFiles(int)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#skipIdea()boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#intellijModulePath()os.Path",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#ideaConfigFiles(int)mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.GenIdeaModule.ideaConfigFiles$(mill.scalalib.GenIdeaModule,int)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#ideaConfigFiles(int)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#ideaJavaModuleFacets(int)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#ideaJavaModuleFacets(int)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#intellijModulePath()os.Path",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.GenIdeaModule.ideaJavaModuleFacets$(mill.scalalib.GenIdeaModule,int)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#ideaJavaModuleFacets(int)mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.GenIdeaModule.intellijModulePath$(mill.scalalib.GenIdeaModule)os.Path",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#intellijModulePath()os.Path",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.GenIdeaModule.skipIdea$(mill.scalalib.GenIdeaModule)boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#skipIdea()boolean",
+    -797362743
+  ],
+  [
+    "external mill.scalalib.GenIdeaModule",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.GenIdeaModule.$init$(mill.scalalib.GenIdeaModule)void",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.WithZincWorker.$init$(mill.scalalib.WithZincWorker)void",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.defaultCommandName$(mill.scalalib.JavaModule)java.lang.String",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#defaultCommandName()java.lang.String",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#<init>(build_.package_$components$)void",
+    -797362743
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$!<init>(build_.package_$components$)void",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$#event$minusprotocol$lzycompute$1()void",
+    -797362743
+  ],
+  [
+    "call build_.package_$components$!event$minusprotocol$lzycompute$1()void",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$#event$minusprotocol()build_.package_$components$event$minusprotocol$",
+    -797362743
+  ],
+  [
+    "call build_.package_$components$#event$minusprotocol()build_.package_$components$event$minusprotocol$",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#moduleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$recModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$!mill$scalalib$JavaModule$$recModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$recModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$super$runBackgroundLogToConsole()boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$super$doRunBackground(os.Path,scala.collection.immutable.Seq,mill.api.AggWrapper$Agg,scala.collection.immutable.Seq,scala.collection.immutable.Map,java.lang.String,os.Path,boolean,scala.Option,scala.collection.immutable.Seq)scala.Function1",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#compileModuleDepsChecked()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#resolvePublishDependency()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#resolvePublishDependency()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.mill$scalalib$JavaModule$$recModuleDeps$(mill.scalalib.JavaModule)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$recModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call build_.package_$components$event$minussystem$!mill$scalalib$JavaModule$$recModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$recModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#assemblyRules()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#showModuleDeps$default$1()boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$recCompileModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$!mill$scalalib$JavaModule$$recCompileModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$recCompileModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.transitiveRunModuleDeps$(mill.scalalib.JavaModule)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#transitiveRunModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.compileModuleDepsChecked$(mill.scalalib.JavaModule)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#compileModuleDepsChecked()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.moduleDeps$(mill.scalalib.JavaModule)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#moduleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#bspJvmBuildTarget()mill.scalalib.bsp.JvmBuildTarget",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$super$doRunBackground(os.Path,scala.collection.immutable.Seq,mill.api.AggWrapper$Agg,scala.collection.immutable.Seq,scala.collection.immutable.Map,java.lang.String,os.Path,boolean,scala.Option,scala.collection.immutable.Seq)scala.Function1",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#moduleDepsChecked()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.resolvePublishDependency$(mill.scalalib.JavaModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#resolvePublishDependency()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$super$bspBuildTarget()mill.scalalib.bsp.BspBuildTarget",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#printDepsTree(boolean,mill.define.Task,scala.collection.immutable.List)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#processDependency$default$1()boolean",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.mill$scalalib$JavaModule$$recCompileModuleDeps$(mill.scalalib.JavaModule)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$recCompileModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call build_.package_$components$event$minussystem$!mill$scalalib$JavaModule$$recCompileModuleDeps$lzycompute()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$recCompileModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#bspJvmBuildTargetTask()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#compileModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.printDepsTree$(mill.scalalib.JavaModule,boolean,mill.define.Task,scala.collection.immutable.List)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#printDepsTree(boolean,mill.define.Task,scala.collection.immutable.List)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#compileModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#transitiveModuleCompileModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#transitiveModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.RunModule.doRunBackground$(mill.scalalib.RunModule,os.Path,scala.collection.immutable.Seq,mill.api.AggWrapper$Agg,scala.collection.immutable.Seq,scala.collection.immutable.Map,java.lang.String,os.Path,boolean,scala.Option,scala.collection.immutable.Seq)scala.Function1",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$super$doRunBackground(os.Path,scala.collection.immutable.Seq,mill.api.AggWrapper$Agg,scala.collection.immutable.Seq,scala.collection.immutable.Map,java.lang.String,os.Path,boolean,scala.Option,scala.collection.immutable.Seq)scala.Function1",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#assemblyRules()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#processDependency$default$1()boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#bspJvmBuildTarget()mill.scalalib.bsp.JvmBuildTarget",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.ivyDepsTree$default$1$(mill.scalalib.JavaModule)mill.scalalib.IvyDepsTreeArgs",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#ivyDepsTree$default$1()mill.scalalib.IvyDepsTreeArgs",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#recursiveRunModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.assemblyRules$(mill.scalalib.JavaModule)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#assemblyRules()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#transitiveModuleRunModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.showModuleDeps$default$1$(mill.scalalib.JavaModule)boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#showModuleDeps$default$1()boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#processedDependencyManagement(scala.collection.immutable.Seq)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.bspJvmBuildTargetTask$(mill.scalalib.JavaModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#bspJvmBuildTargetTask()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$super$runBackgroundLogToConsole()boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$super$zincWorker()mill.define.ModuleRef",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.transitiveModuleCompileModuleDeps$(mill.scalalib.JavaModule)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#transitiveModuleCompileModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.moduleDepsChecked$(mill.scalalib.JavaModule)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#moduleDepsChecked()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#processDependency(boolean)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#processedIvyDeps()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runLocalTask$default$2()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runBackgroundTask$default$2()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runBackgroundTask(mill.define.Task,mill.define.Task)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runLocalTask(mill.define.Task,mill.define.Task)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#run$default$1()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runForkedTask$default$2()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#doRunBackground(os.Path,scala.collection.immutable.Seq,mill.api.AggWrapper$Agg,scala.collection.immutable.Seq,scala.collection.immutable.Map,java.lang.String,os.Path,boolean,scala.Option,scala.collection.immutable.Seq)scala.Function1",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#doRunBackground(os.Path,scala.collection.immutable.Seq,mill.api.AggWrapper$Agg,scala.collection.immutable.Seq,scala.collection.immutable.Map,java.lang.String,os.Path,boolean,scala.Option,scala.collection.immutable.Seq)scala.Function1",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runLocalTask$default$2()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runner()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runLocal$default$1()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runLocal$default$1()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runBackgroundLogToConsole()boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runForkedTask(mill.define.Task,mill.define.Task)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runBackgroundTask(mill.define.Task,mill.define.Task)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#run$default$1()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runLocalTask(mill.define.Task,mill.define.Task)mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.run$default$1$(mill.scalalib.JavaModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#run$default$1()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.RunModule.runBackgroundTask$(mill.scalalib.RunModule,mill.define.Task,mill.define.Task)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runBackgroundTask(mill.define.Task,mill.define.Task)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runForkedTask(mill.define.Task,mill.define.Task)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runner()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.doRunBackground$(mill.scalalib.JavaModule,os.Path,scala.collection.immutable.Seq,mill.api.AggWrapper$Agg,scala.collection.immutable.Seq,scala.collection.immutable.Map,java.lang.String,os.Path,boolean,scala.Option,scala.collection.immutable.Seq)scala.Function1",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#doRunBackground(os.Path,scala.collection.immutable.Seq,mill.api.AggWrapper$Agg,scala.collection.immutable.Seq,scala.collection.immutable.Map,java.lang.String,os.Path,boolean,scala.Option,scala.collection.immutable.Seq)scala.Function1",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runBackgroundLogToConsole()boolean",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.RunModule.runLocalTask$default$2$(mill.scalalib.RunModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runLocalTask$default$2()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.runBackgroundLogToConsole$(mill.scalalib.JavaModule)boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runBackgroundLogToConsole()boolean",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.RunModule.runForkedTask$(mill.scalalib.RunModule,mill.define.Task,mill.define.Task)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runForkedTask(mill.define.Task,mill.define.Task)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runBackgroundTask$default$2()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runForkedTask$default$2()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.RunModule.runForkedTask$default$2$(mill.scalalib.RunModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runForkedTask$default$2()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.RunModule.runLocalTask$(mill.scalalib.RunModule,mill.define.Task,mill.define.Task)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runLocalTask(mill.define.Task,mill.define.Task)mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.RunModule.runner$(mill.scalalib.RunModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runner()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.RunModule.runBackgroundTask$default$2$(mill.scalalib.RunModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runBackgroundTask$default$2()mill.define.Task",
+    -797362743
+  ],
+  [
+    "external mill.scalalib.RunModule",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.RunModule.runBackgroundLogToConsole$(mill.scalalib.RunModule)boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$super$runBackgroundLogToConsole()boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#processedDependencyManagement(scala.collection.immutable.Seq)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.processDependency$default$1$(mill.scalalib.JavaModule)boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#processDependency$default$1()boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#recursiveModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.runLocal$default$1$(mill.scalalib.JavaModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runLocal$default$1()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#recursiveRunModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.compileModuleDeps$(mill.scalalib.JavaModule)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#compileModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.recursiveModuleDeps$(mill.scalalib.JavaModule)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#recursiveModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#bspBuildTargetData()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#bspDisplayName()java.lang.String",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#bspDisplayName0()java.lang.String",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#bspDisplayName()java.lang.String",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#bspDisplayName0()java.lang.String",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#bspBuildTargetData()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.bspBuildTargetData$(mill.scalalib.JavaModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#bspBuildTargetData()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#zincWorkerRef()mill.define.ModuleRef",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#when(boolean,scala.collection.immutable.Seq)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#kotlinCompileTask(scala.collection.immutable.Seq)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#internalReportOldProblems()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#kotlinWorkerTask()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#kotlinCompileTask$default$1()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#zincWorkerRef()mill.define.ModuleRef",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#kotlinWorkerRef()mill.define.ModuleRef",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$kotlinlib$KotlinModule$$super$bspBuildTarget()mill.scalalib.bsp.BspBuildTarget",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#kotlinWorkerRef()mill.define.ModuleRef",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#dokkaSourceSetDisplayName()java.lang.String",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#dokkaAnalysisPlatform()java.lang.String",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#internalReportOldProblems()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#kotlinCompileTask$default$1()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#kotlinCompileTask(scala.collection.immutable.Seq)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#dokkaSourceSetDisplayName()java.lang.String",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#internalCompileJavaFiles(mill.scalalib.api.ZincWorkerApi,scala.collection.immutable.Seq,scala.collection.immutable.Seq,mill.api.AggWrapper$Agg,scala.collection.immutable.Seq,scala.Option,boolean,mill.api.Ctx$Dest)mill.api.Result",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#bspBuildTarget()mill.scalalib.bsp.BspBuildTarget",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#bspBuildTarget()mill.scalalib.bsp.BspBuildTarget",
+    -797362743
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.internalReportOldProblems$(mill.kotlinlib.KotlinModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#internalReportOldProblems()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.dokkaSourceSetDisplayName$(mill.kotlinlib.KotlinModule)java.lang.String",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#dokkaSourceSetDisplayName()java.lang.String",
+    -797362743
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.kotlinWorkerRef$(mill.kotlinlib.KotlinModule)mill.define.ModuleRef",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#kotlinWorkerRef()mill.define.ModuleRef",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#when(boolean,scala.collection.immutable.Seq)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#dokkaAnalysisPlatform()java.lang.String",
+    -797362743
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.kotlinCompileTask$(mill.kotlinlib.KotlinModule,scala.collection.immutable.Seq)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#kotlinCompileTask(scala.collection.immutable.Seq)mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.kotlinCompileTask$default$1$(mill.kotlinlib.KotlinModule)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#kotlinCompileTask$default$1()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#kotlinWorkerTask()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.dokkaAnalysisPlatform$(mill.kotlinlib.KotlinModule)java.lang.String",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#dokkaAnalysisPlatform()java.lang.String",
+    -797362743
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.zincWorkerRef$(mill.kotlinlib.KotlinModule)mill.define.ModuleRef",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#zincWorkerRef()mill.define.ModuleRef",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#internalCompileJavaFiles(mill.scalalib.api.ZincWorkerApi,scala.collection.immutable.Seq,scala.collection.immutable.Seq,mill.api.AggWrapper$Agg,scala.collection.immutable.Seq,scala.Option,boolean,mill.api.Ctx$Dest)mill.api.Result",
+    -797362743
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.kotlinWorkerTask$(mill.kotlinlib.KotlinModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#kotlinWorkerTask()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.internalCompileJavaFiles$(mill.kotlinlib.KotlinModule,mill.scalalib.api.ZincWorkerApi,scala.collection.immutable.Seq,scala.collection.immutable.Seq,mill.api.AggWrapper$Agg,scala.collection.immutable.Seq,scala.Option,boolean,mill.api.Ctx$Dest)mill.api.Result",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#internalCompileJavaFiles(mill.scalalib.api.ZincWorkerApi,scala.collection.immutable.Seq,scala.collection.immutable.Seq,mill.api.AggWrapper$Agg,scala.collection.immutable.Seq,scala.Option,boolean,mill.api.Ctx$Dest)mill.api.Result",
+    -797362743
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.when$(mill.kotlinlib.KotlinModule,boolean,scala.collection.immutable.Seq)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#when(boolean,scala.collection.immutable.Seq)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$kotlinlib$KotlinModule$$super$bspBuildTarget()mill.scalalib.bsp.BspBuildTarget",
+    -797362743
+  ],
+  [
+    "external mill.kotlinlib.KotlinModule",
+    -797362743
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.bspBuildTarget$(mill.kotlinlib.KotlinModule)mill.scalalib.bsp.BspBuildTarget",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#bspBuildTarget()mill.scalalib.bsp.BspBuildTarget",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.bsp.BspModule.bspDisplayName$(mill.scalalib.bsp.BspModule)java.lang.String",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#bspDisplayName()java.lang.String",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.bsp.BspModule.bspDisplayName0$(mill.scalalib.bsp.BspModule)java.lang.String",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#bspDisplayName0()java.lang.String",
+    -797362743
+  ],
+  [
+    "external mill.scalalib.bsp.BspModule",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.bsp.BspModule.bspBuildTarget$(mill.scalalib.bsp.BspModule)mill.scalalib.bsp.BspBuildTarget",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$super$bspBuildTarget()mill.scalalib.bsp.BspBuildTarget",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.processDependency$(mill.scalalib.JavaModule,boolean)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#processDependency(boolean)mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.runModuleDeps$(mill.scalalib.JavaModule)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule$JavaModuleTests.moduleDeps$(mill.scalalib.JavaModule$JavaModuleTests)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#moduleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule$JavaModuleTests.repositoriesTask$(mill.scalalib.JavaModule$JavaModuleTests)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#repositoriesTask()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule$JavaModuleTests.hierarchyChecks$(mill.scalalib.JavaModule$JavaModuleTests)void",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#hierarchyChecks()void",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule$JavaModuleTests.resolutionCustomizer$(mill.scalalib.JavaModule$JavaModuleTests)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#resolutionCustomizer()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule$JavaModuleTests.skipIdea$(mill.scalalib.JavaModule$JavaModuleTests)boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#skipIdea()boolean",
+    -797362743
+  ],
+  [
+    "external mill.scalalib.JavaModule$JavaModuleTests",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule$JavaModuleTests.zincWorker$(mill.scalalib.JavaModule$JavaModuleTests)mill.define.ModuleRef",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#zincWorker()mill.define.ModuleRef",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#zincWorker()mill.define.ModuleRef",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.zincWorker$(mill.scalalib.JavaModule)mill.define.ModuleRef",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#zincWorker()mill.define.ModuleRef",
+    -797362743
+  ],
+  [
+    "external mill.scalalib.WithZincWorker",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.WithZincWorker.zincWorker$(mill.scalalib.WithZincWorker)mill.define.ModuleRef",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$super$zincWorker()mill.define.ModuleRef",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runModuleDepsChecked()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.runModuleDepsChecked$(mill.scalalib.JavaModule)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runModuleDepsChecked()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.allBomDeps$(mill.scalalib.JavaModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#allBomDeps()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.processedIvyDeps$(mill.scalalib.JavaModule)mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#processedIvyDeps()mill.define.Task",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.recursiveRunModuleDeps$(mill.scalalib.JavaModule)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#recursiveRunModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.processedDependencyManagement$(mill.scalalib.JavaModule,scala.collection.immutable.Seq)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#processedDependencyManagement(scala.collection.immutable.Seq)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.transitiveModuleDeps$(mill.scalalib.JavaModule)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#transitiveModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.bspJvmBuildTarget$(mill.scalalib.JavaModule)mill.scalalib.bsp.JvmBuildTarget",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#bspJvmBuildTarget()mill.scalalib.bsp.JvmBuildTarget",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.transitiveModuleRunModuleDeps$(mill.scalalib.JavaModule)scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#transitiveModuleRunModuleDeps()scala.collection.immutable.Seq",
+    -797362743
+  ],
+  [
+    "external mill.scalalib.JavaModule",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.JavaModule.bspBuildTarget$(mill.scalalib.JavaModule)mill.scalalib.bsp.BspBuildTarget",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$TestModule$$super$bspBuildTarget()mill.scalalib.bsp.BspBuildTarget",
+    -797362743
+  ],
+  [
+    "external mill.scalalib.TestModule",
+    -797362743
+  ],
+  [
+    "call mill.scalalib.TestModule.bspBuildTarget$(mill.scalalib.TestModule)mill.scalalib.bsp.BspBuildTarget",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$kotlinlib$KotlinModule$$super$bspBuildTarget()mill.scalalib.bsp.BspBuildTarget",
+    -797362743
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.kotlinCompilerVersion$(mill.kotlinlib.KotlinModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#kotlinCompilerVersion()mill.define.Target",
+    1570595821
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$#run$default$1()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$38(build_.package_$components$event$minusprotocol$)mill.define.Task",
+    643914126
+  ],
+  [
+    "call mill.scalalib.RunModule.runClasspath$(mill.scalalib.RunModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$super$runClasspath()mill.define.Target",
+    452474749
+  ],
+  [
+    "call mill.scalalib.SemanticDbJavaModule.semanticDbVersion$(mill.scalalib.SemanticDbJavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#semanticDbVersion()mill.define.Target",
+    -1271668969
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.allKotlinSourceFiles$(mill.kotlinlib.KotlinModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#allKotlinSourceFiles()mill.define.Target",
+    1986370627
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$#ivyDepsTree$default$1()mill.scalalib.IvyDepsTreeArgs",
+    -797362743
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$35(build_.package_$components$event$minusprotocol$)mill.scalalib.IvyDepsTreeArgs",
+    693438879
+  ],
+  [
+    "call mill.scalalib.JavaModule.assembly$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#assembly()mill.define.Target",
+    -1409973946
+  ],
+  [
+    "call mill.scalalib.JavaModule.mandatoryIvyDeps$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$kotlinlib$KotlinModule$$super$mandatoryIvyDeps()mill.define.Target",
+    -456796410
+  ],
+  [
+    "external scala.runtime.ScalaRunTime$",
+    -901188757
+  ],
+  [
+    "call scala.runtime.ScalaRunTime$#wrapRefArray(java.lang.Object[])scala.collection.immutable.ArraySeq",
+    -901188757
+  ],
+  [
+    "call scala.package$.<clinit>()void",
+    0
+  ],
+  [
+    "external mill.main.RootModule$Info",
+    -901188757
+  ],
+  [
+    "call mill.main.RootModule$Info!<init>(scala.collection.immutable.Seq,java.lang.String,java.lang.String,java.lang.String)void",
+    -1265858934
+  ],
+  [
+    "call scala.collection.immutable.Vector$.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.main.RootModule$Info.<clinit>()void",
+    0
+  ],
+  [
+    "call scala.collection.immutable.Seq.<clinit>()void",
+    0
+  ],
+  [
+    "call scala.runtime.ScalaRunTime$.<clinit>()void",
+    0
+  ],
+  [
+    "external scala.package$",
+    -901188757
+  ],
+  [
+    "call scala.package$#Vector()scala.collection.immutable.Vector$",
+    -901188757
+  ],
+  [
+    "external scala.collection.IterableFactory",
+    -1802377514
+  ],
+  [
+    "external scala.collection.SeqFactory",
+    1591401025
+  ],
+  [
+    "external scala.collection.StrictOptimizedSeqFactory",
+    690212268
+  ],
+  [
+    "external scala.collection.immutable.Vector$",
+    -210976489
+  ],
+  [
+    "call scala.collection.immutable.Vector$#apply(scala.collection.immutable.Seq)java.lang.Object",
+    -1265858934
+  ],
+  [
+    "call java.lang.String.<clinit>()void",
+    0
+  ],
+  [
+    "def build_.MillMiscInfo$#<init>()void",
+    1906801858
+  ],
+  [
+    "call build_.MillMiscInfo$!<init>()void",
+    1906801858
+  ],
+  [
+    "def build_.MillMiscInfo$.<clinit>()void",
+    -704544943
+  ],
+  [
+    "call build_.MillMiscInfo$.<clinit>()void",
+    -704544943
+  ],
+  [
+    "call build_.MillMiscInfo$#topLevelProjectRoot()os.Path",
+    -901188757
+  ],
+  [
+    "def build_.MillMiscInfo.topLevelProjectRoot()os.Path",
+    1135235557
+  ],
+  [
+    "call mill.main.RootModule.<clinit>()void",
+    0
+  ],
+  [
+    "call build_.MillMiscInfo$#millMiscInfo()mill.main.RootModule$Info",
+    -901188757
+  ],
+  [
+    "external mill.main.MainModule",
+    1591401025
+  ],
+  [
+    "external mill.main.RootModule",
+    1380424536
+  ],
+  [
+    "call mill.main.RootModule!<init>(mill.main.RootModule$Info,sourcecode.Enclosing,sourcecode.Line,sourcecode.File)void",
+    -1745094713
+  ],
+  [
+    "def build_.package_#<init>()void",
+    -528536613
+  ],
+  [
+    "call mill.scalalib.TestModule$Junit5.<clinit>()void",
+    0
+  ],
+  [
+    "external mill.scalalib.TestModule$Junit5",
+    -1698551500
+  ],
+  [
+    "call mill.scalalib.TestModule$Junit5.testFramework$(mill.scalalib.TestModule$Junit5)mill.define.Target",
+    -1698551500
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#testFramework()mill.define.Target",
+    2116280136
+  ],
+  [
+    "call build_.MillMiscInfo$#output()os.Path",
+    -901188757
+  ],
+  [
+    "def build_.MillMiscInfo.output()os.Path",
+    1863036738
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.mandatoryIvyDeps$(mill.kotlinlib.KotlinModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mandatoryIvyDeps()mill.define.Target",
+    1382672833
+  ],
+  [
+    "call mill.scalalib.JavaModule.docJarUseArgsFile$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#docJarUseArgsFile()mill.define.Target",
+    1136481436
+  ],
+  [
+    "call mill.scalalib.JavaModule.transitiveCompileClasspath$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#transitiveCompileClasspath()mill.define.Target",
+    1176369760
+  ],
+  [
+    "call mill.scalalib.JavaModule.upstreamAssemblyClasspath$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#upstreamAssemblyClasspath()mill.define.Target",
+    -378221155
+  ],
+  [
+    "call mill.scalalib.SemanticDbJavaModule.semanticDbPluginClasspath$(mill.scalalib.SemanticDbJavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#semanticDbPluginClasspath()mill.define.Target",
+    693891863
+  ],
+  [
+    "call scala.collection.immutable.Seq#apply(int)java.lang.Object",
+    1781404143
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.define.Task.<clinit>()void",
+    0
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$20(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    -180624962
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.allSourceFiles$(mill.kotlinlib.KotlinModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#allSourceFiles()mill.define.Target",
+    907647560
+  ],
+  [
+    "call mill.scalalib.JavaModule.artifactTypes$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#artifactTypes()mill.define.Target",
+    1281680994
+  ],
+  [
+    "call mill.scalalib.JavaModule.forkEnv$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#forkEnv()mill.define.Target",
+    -45167951
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.docJar$(mill.kotlinlib.KotlinModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#docJar()mill.define.Target",
+    1263682601
+  ],
+  [
+    "external mainargs.Leftover",
+    690212268
+  ],
+  [
+    "call mainargs.Leftover#value()scala.collection.immutable.Seq",
+    690212268
+  ],
+  [
+    "call mainargs.Leftover.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.eval.Evaluator.<clinit>()void",
+    0
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$7(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    -927042099
+  ],
+  [
+    "call mill.scalalib.RunModule.allLocalMainClasses$(mill.scalalib.RunModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#allLocalMainClasses()mill.define.Target",
+    -976422150
+  ],
+  [
+    "call mill.scalalib.JavaModule.zincAuxiliaryClassFileExtensions$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#zincAuxiliaryClassFileExtensions()mill.define.Target",
+    -339133928
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#artifactTypes()mill.define.Target",
+    1281680994
+  ],
+  [
+    "call mill.scalalib.JavaModule.compileResources$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#compileResources()mill.define.Target",
+    -2060865363
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#assembly()mill.define.Target",
+    -1409973946
+  ],
+  [
+    "call mill.scalalib.JavaModule.resolvedRunIvyDeps$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#resolvedRunIvyDeps()mill.define.Target",
+    165495845
+  ],
+  [
+    "call mill.scalalib.RunModule.localRunClasspath$(mill.scalalib.RunModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$super$localRunClasspath()mill.define.Target",
+    -2055649062
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$kotlinlib$KotlinModule$$super$mandatoryIvyDeps()mill.define.Target",
+    -456796410
+  ],
+  [
+    "call mill.scalalib.SemanticDbJavaModule.semanticDbJavaVersion$(mill.scalalib.SemanticDbJavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#semanticDbJavaVersion()mill.define.Target",
+    -136845320
+  ],
+  [
+    "call mill.scalalib.JavaModule.launcher$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#launcher()mill.define.Target",
+    1981845900
+  ],
+  [
+    "call mill.scalalib.JavaModule.bspTransitiveLocalClasspath$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#bspTransitiveLocalClasspath()mill.define.Target",
+    1801662637
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$super$prepareOffline(mainargs.Flag)mill.define.Command",
+    -745341261
+  ],
+  [
+    "call mill.scalalib.JavaModule.transitiveJars$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#transitiveJars()mill.define.Target",
+    861386906
+  ],
+  [
+    "call mill.scalalib.JavaModule.upstreamCompileOutput$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#upstreamCompileOutput()mill.define.Target",
+    1106416825
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#upstreamAssemblyClasspath()mill.define.Target",
+    -378221155
+  ],
+  [
+    "call mill.scalalib.JavaModule.forkArgs$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#forkArgs()mill.define.Target",
+    703594280
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.compile$(mill.kotlinlib.KotlinModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#compile()mill.define.Target",
+    -1252695559
+  ],
+  [
+    "call mill.scalalib.SemanticDbJavaModule.resolvedSemanticDbJavaPluginIvyDeps$(mill.scalalib.SemanticDbJavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#resolvedSemanticDbJavaPluginIvyDeps()mill.define.Target",
+    -751660817
+  ],
+  [
+    "call mill.scalalib.JavaModule.javadocOptions$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#javadocOptions()mill.define.Target",
+    -1934772947
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.dokkaVersion$(mill.kotlinlib.KotlinModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#dokkaVersion()mill.define.Target",
+    1375162920
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#allKotlinSourceFiles()mill.define.Target",
+    1986370627
+  ],
+  [
+    "call mill.scalalib.JavaModule.upstreamAssembly2$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#upstreamAssembly2()mill.define.Target",
+    -826877351
+  ],
+  [
+    "call mill.scalalib.JavaModule.mandatoryJavacOptions$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mandatoryJavacOptions()mill.define.Target",
+    510286092
+  ],
+  [
+    "call mill.scalalib.JavaModule.compileIvyDeps$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#compileIvyDeps()mill.define.Target",
+    -1807637810
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$10(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    -1212200041
+  ],
+  [
+    "call mill.scalalib.JavaModule.localClasspath$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#localClasspath()mill.define.Target",
+    -1836724073
+  ],
+  [
+    "call mill.scalalib.RunModule.forkArgs$(mill.scalalib.RunModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$super$forkArgs()mill.define.Target",
+    -325894306
+  ],
+  [
+    "call mill.scalalib.JavaModule.resolvedIvyDeps$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#resolvedIvyDeps()mill.define.Target",
+    -1413314800
+  ],
+  [
+    "call mill.scalalib.JavaModule.platformSuffix$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#platformSuffix()mill.define.Target",
+    -292602383
+  ],
+  [
+    "call mill.scalalib.JavaModule.forkWorkingDir$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#forkWorkingDir()mill.define.Target",
+    -1392876084
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#defaultCommandName()java.lang.String",
+    312994293
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#<init>(build_.package_$components$)void",
+    -580629827
+  ],
+  [
+    "call build_.package_$components$event$minussystem$!<init>(build_.package_$components$)void",
+    -580629827
+  ],
+  [
+    "call build_.package_$components$event$minussystem$.<clinit>()void",
+    0
+  ],
+  [
+    "def build_.package_$components$#event$minussystem$lzycompute$1()void",
+    1206048029
+  ],
+  [
+    "call mill.scalalib.JavaModule.artifactNameParts$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#artifactNameParts()mill.define.Target",
+    -1260391496
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.dokkaOptions$(mill.kotlinlib.KotlinModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#dokkaOptions()mill.define.Target",
+    1245876511
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#runLocal$default$1()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$22(build_.package_$CommonKotlinModule$test$)mill.define.Task",
+    -945255957
+  ],
+  [
+    "call mill.scalalib.JavaModule.artifactId$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#artifactId()mill.define.Target",
+    1495651404
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#launcher()mill.define.Target",
+    1981845900
+  ],
+  [
+    "call mill.scalalib.RunModule.forkWorkingDir$(mill.scalalib.RunModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$super$forkWorkingDir()mill.define.Target",
+    1022173733
+  ],
+  [
+    "call mill.main.SelectiveExecutionModule.<clinit>()void",
+    0
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$66(mill.main.SelectiveExecutionModule,scala.collection.immutable.Seq)mill.define.Command",
+    1864931664
+  ],
+  [
+    "def build_.MillMiscInfo.millMiscInfo()mill.main.RootModule$Info",
+    -458546982
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$super$localRunClasspath()mill.define.Target",
+    -2055649062
+  ],
+  [
+    "call mill.scalalib.JavaModule.docResources$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#docResources()mill.define.Target",
+    1267220525
+  ],
+  [
+    "call mill.scalalib.JavaModule.jar$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#jar()mill.define.Target",
+    -1039338874
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.kotlinCompilerClasspath$(mill.kotlinlib.KotlinModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#kotlinCompilerClasspath()mill.define.Target",
+    536337840
+  ],
+  [
+    "call mill.scalalib.JavaModule.transitiveLocalClasspath$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#transitiveLocalClasspath()mill.define.Target",
+    -1540502577
+  ],
+  [
+    "call mill.scalalib.TestModule.testReportXml$(mill.scalalib.TestModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#testReportXml()mill.define.Target",
+    -1671631124
+  ],
+  [
+    "call mill.scalalib.JavaModule.generatedSources$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#generatedSources()mill.define.Target",
+    472108148
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#semanticDbPluginClasspath()mill.define.Target",
+    693891863
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runMainBackground(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    1338991587
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.kotlincOptions$(mill.kotlinlib.KotlinModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#kotlincOptions()mill.define.Target",
+    836668156
+  ],
+  [
+    "call mill.define.Target.<clinit>()void",
+    0
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#millModuleExternal()mill.define.Ctx$External",
+    -901188757
+  ],
+  [
+    "external mill.api.AggWrapper$Agg$",
+    1591401025
+  ],
+  [
+    "external upickle.core.Transformer",
+    -901188757
+  ],
+  [
+    "external upickle.core.Types$Writer",
+    -1802377514
+  ],
+  [
+    "external upickle.core.Visitor",
+    -901188757
+  ],
+  [
+    "external upickle.core.Types$Reader",
+    -1802377514
+  ],
+  [
+    "external upickle.core.Types$ReadWriter",
+    -210976489
+  ],
+  [
+    "call mill.api.AggWrapper$Agg$#jsonFormat(upickle.core.Types$ReadWriter)upickle.core.Types$ReadWriter",
+    1380424536
+  ],
+  [
+    "call mill.api.Result$.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.scalalib.Dep.<clinit>()void",
+    0
+  ],
+  [
+    "external mill.main.TokenReaders0",
+    -901188757
+  ],
+  [
+    "external mill.api.JsonFormatters",
+    -901188757
+  ],
+  [
+    "external mill.package$",
+    1591401025
+  ],
+  [
+    "call mill.package$#Agg()mill.api.AggWrapper$Agg$",
+    1591401025
+  ],
+  [
+    "external mill.kotlinlib.package$DepSyntax",
+    -901188757
+  ],
+  [
+    "call mill.kotlinlib.package$DepSyntax#ivy(scala.collection.immutable.Seq)mill.scalalib.Dep",
+    -1956071202
+  ],
+  [
+    "call mill.kotlinlib.package$DepSyntax.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.api.AggWrapper$Agg$.<clinit>()void",
+    0
+  ],
+  [
+    "call scala.StringContext.<clinit>()void",
+    0
+  ],
+  [
+    "external mill.kotlinlib.package$",
+    -901188757
+  ],
+  [
+    "external scala.StringContext",
+    690212268
+  ],
+  [
+    "call mill.kotlinlib.package$#DepSyntax(scala.StringContext)mill.kotlinlib.package$DepSyntax",
+    -210976489
+  ],
+  [
+    "call mill.api.AggWrapper$Agg$#apply(scala.collection.immutable.Seq)java.lang.Object",
+    536518580
+  ],
+  [
+    "call mill.kotlinlib.package$.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.api.AggWrapper$Agg.<clinit>()void",
+    0
+  ],
+  [
+    "call scala.runtime.ScalaRunTime$#genericWrapArray(java.lang.Object)scala.collection.immutable.ArraySeq",
+    -1802377514
+  ],
+  [
+    "call java.lang.Object.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.package$.<clinit>()void",
+    0
+  ],
+  [
+    "call scala.StringContext!<init>(scala.collection.immutable.Seq)void",
+    -364670177
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$.$anonfun$ivyDeps$3(scala.collection.immutable.Seq)mill.api.AggWrapper$Agg",
+    2073577847
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$.$anonfun$ivyDeps$3(scala.collection.immutable.Seq)mill.api.AggWrapper$Agg",
+    2073577847
+  ],
+  [
+    "external mill.api.Result$",
+    -901188757
+  ],
+  [
+    "external scala.Function0",
+    -901188757
+  ],
+  [
+    "call mill.api.Result$#create(scala.Function0)mill.api.Result",
+    -1802377514
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$.$anonfun$ivyDeps$2(scala.collection.immutable.Seq,mill.api.Ctx)mill.api.Result",
+    1448765
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$.$anonfun$ivyDeps$2(scala.collection.immutable.Seq,mill.api.Ctx)mill.api.Result",
+    1448765
+  ],
+  [
+    "external mill.define.NamedTask",
+    -901188757
+  ],
+  [
+    "external mill.define.Target",
+    -1802377514
+  ],
+  [
+    "external mill.define.TargetImpl",
+    690212268
+  ],
+  [
+    "call mill.define.TargetImpl!<init>(mill.define.Task,mill.define.Ctx,upickle.core.Types$ReadWriter,scala.Option)void",
+    1859660315
+  ],
+  [
+    "call scala.Some.<clinit>()void",
+    0
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#millModuleShared()mill.define.Ctx$Foreign",
+    -901188757
+  ],
+  [
+    "call mill.define.TargetImpl.<clinit>()void",
+    0
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#millModuleSegments()mill.define.Segments",
+    -901188757
+  ],
+  [
+    "call scala.runtime.BoxesRunTime.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.api.Loose$.<clinit>()void",
+    0
+  ],
+  [
+    "external mill.scalalib.Dep$",
+    -1802377514
+  ],
+  [
+    "call mill.scalalib.Dep$#rw()upickle.core.Types$ReadWriter",
+    -1802377514
+  ],
+  [
+    "external mill.define.TaskBase$TraverseCtxHolder",
+    -901188757
+  ],
+  [
+    "external mill.define.Applicative$Applyer",
+    -901188757
+  ],
+  [
+    "external mill.define.TaskBase",
+    1591401025
+  ],
+  [
+    "external scala.Function2",
+    -901188757
+  ],
+  [
+    "call mill.define.Target$#traverseCtx(scala.collection.immutable.Seq,scala.Function2)mill.define.Task",
+    -364670177
+  ],
+  [
+    "external mill.api.AggWrapper",
+    -901188757
+  ],
+  [
+    "call mill.api.Loose$#Agg()mill.api.AggWrapper$Agg$",
+    -901188757
+  ],
+  [
+    "call mill.define.Target$.<clinit>()void",
+    0
+  ],
+  [
+    "call scala.runtime.BoxesRunTime.boxToBoolean(boolean)java.lang.Boolean",
+    0
+  ],
+  [
+    "call mill.scalalib.Dep$.<clinit>()void",
+    0
+  ],
+  [
+    "external scala.Some",
+    -210976489
+  ],
+  [
+    "call scala.Some!<init>(java.lang.Object)void",
+    -1112165246
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#millModuleBasePath()mill.define.Ctx$BasePath",
+    -901188757
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$.$anonfun$ivyDeps$1(build_.package_$CommonKotlinModule$test$)mill.define.TargetImpl",
+    203709669
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$.$anonfun$ivyDeps$1(build_.package_$CommonKotlinModule$test$)mill.define.TargetImpl",
+    203709669
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#cachedTarget(scala.Function0,sourcecode.Enclosing)java.lang.Object",
+    1380424536
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#ivyDeps()mill.define.Target",
+    923936373
+  ],
+  [
+    "call mill.scalalib.JavaModule.unmanagedClasspath$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#unmanagedClasspath()mill.define.Target",
+    -1628963957
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$super$run(mill.define.Task)mill.define.Command",
+    -383422519
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$29(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    55778212
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#jar()mill.define.Target",
+    -1039338874
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#kotlinCompilerClasspath()mill.define.Target",
+    536337840
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#run(mill.define.Task)mill.define.Command",
+    1672783137
+  ],
+  [
+    "call mill.scalalib.JavaModule.finalMainClass$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#finalMainClass()mill.define.Target",
+    1055150092
+  ],
+  [
+    "call mill.scalalib.JavaModule.zincReportCachedProblems$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#zincReportCachedProblems()mill.define.Target",
+    -1479655154
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#compile()mill.define.Target",
+    -1252695559
+  ],
+  [
+    "call scala.runtime.BoxesRunTime.unboxToBoolean(java.lang.Object)boolean",
+    -901188757
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$28(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    1345911275
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runBackground(scala.collection.immutable.Seq)mill.define.Command",
+    878156296
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#javadocOptions()mill.define.Target",
+    -1934772947
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$super$runMainBackground(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    1288379579
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#ivyDepsTree(mill.scalalib.IvyDepsTreeArgs)mill.define.Command",
+    -1745758511
+  ],
+  [
+    "call mill.scalalib.JavaModule.transitiveRunIvyDeps$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#transitiveRunIvyDeps()mill.define.Target",
+    1583289747
+  ],
+  [
+    "call mill.scalalib.TestModule.testCachedArgs$(mill.scalalib.TestModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#testCachedArgs()mill.define.Target",
+    481946115
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runLocal(mill.define.Task)mill.define.Command",
+    -321769051
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#finalMainClass()mill.define.Target",
+    1055150092
+  ],
+  [
+    "call mill.scalalib.JavaModule.transitiveIvyDeps$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#transitiveIvyDeps()mill.define.Target",
+    2026531406
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#kotlinCompilerClasspath()mill.define.Target",
+    536337840
+  ],
+  [
+    "call mill.scalalib.TestModule.testUseArgsFile$(mill.scalalib.TestModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#testUseArgsFile()mill.define.Target",
+    -1514853975
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#forkWorkingDir()mill.define.Target",
+    -1392876084
+  ],
+  [
+    "call mill.scalalib.JavaModule.docSources$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#docSources()mill.define.Target",
+    -1462048110
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$super$runClasspath()mill.define.Target",
+    452474749
+  ],
+  [
+    "call mill.scalalib.SemanticDbJavaModule.semanticDbScalaVersion$(mill.scalalib.SemanticDbJavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#semanticDbScalaVersion()mill.define.Target",
+    679227447
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$super$localRunClasspath()mill.define.Target",
+    -2055649062
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#transitiveRunIvyDeps()mill.define.Target",
+    1583289747
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#kotlincHelp(scala.collection.immutable.Seq)mill.define.Command",
+    470423203
+  ],
+  [
+    "call mill.scalalib.JavaModule.depManagement$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#depManagement()mill.define.Target",
+    -1480851616
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#build_$package_$CommonKotlinModule$$$outer()build_.package_",
+    1685349079
+  ],
+  [
+    "call mill.scalalib.JavaModule.transitiveCompileIvyDeps$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#transitiveCompileIvyDeps()mill.define.Target",
+    -51768467
+  ],
+  [
+    "call mill.scalalib.JavaModule.prependShellScript$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#prependShellScript()mill.define.Target",
+    1998945951
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#resolvedSemanticDbJavaPluginIvyDeps()mill.define.Target",
+    -751660817
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.kotlinCompilerIvyDeps$(mill.kotlinlib.KotlinModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#kotlinCompilerIvyDeps()mill.define.Target",
+    -1967022482
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#artifactId()mill.define.Target",
+    1495651404
+  ],
+  [
+    "call mill.scalalib.JavaModule.bspTransitiveCompileClasspath$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#bspTransitiveCompileClasspath()mill.define.Target",
+    -694372398
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#test(scala.collection.immutable.Seq)mill.define.Command",
+    -2059058753
+  ],
+  [
+    "call mill.scalalib.JavaModule.bspCompileClassesPath$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#bspCompileClassesPath()mill.define.Target",
+    1109157857
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#semanticDbScalaVersion()mill.define.Target",
+    679227447
+  ],
+  [
+    "call mainargs.Flag.<clinit>()void",
+    0
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$37(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    1354053152
+  ],
+  [
+    "call mill.scalalib.TestModule.testClasspath$(mill.scalalib.TestModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#testClasspath()mill.define.Target",
+    -1326138587
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#transitiveRunIvyDeps()mill.define.Target",
+    1583289747
+  ],
+  [
+    "call mill.scalalib.JavaModule.allIvyDeps$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#allIvyDeps()mill.define.Target",
+    1144113682
+  ],
+  [
+    "call mill.scalalib.GenIdeaModule.ideaCompileOutput$(mill.scalalib.GenIdeaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#ideaCompileOutput()mill.define.Target",
+    -281871644
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$39(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    1515245612
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#docResources()mill.define.Target",
+    1267220525
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#platformSuffix()mill.define.Target",
+    -292602383
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#bspTransitiveLocalClasspath()mill.define.Target",
+    1801662637
+  ],
+  [
+    "call mill.scalalib.SemanticDbJavaModule.semanticDbPluginIvyDeps$(mill.scalalib.SemanticDbJavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#semanticDbPluginIvyDeps()mill.define.Target",
+    -1518070439
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$.$deserializeLambda$(java.lang.invoke.SerializedLambda)java.lang.Object",
+    205186200
+  ],
+  [
+    "external upickle.core.Types",
+    -901188757
+  ],
+  [
+    "external upickle.implicits.MacrosCommon",
+    -901188757
+  ],
+  [
+    "external upickle.implicits.MacroImplicits",
+    -1802377514
+  ],
+  [
+    "external upickle.MsgReadWriters",
+    690212268
+  ],
+  [
+    "external upickle.implicits.CaseClassReadWriters",
+    -1802377514
+  ],
+  [
+    "external upickle.implicits.ReadersVersionSpecific",
+    1591401025
+  ],
+  [
+    "external upickle.implicits.TupleReadWriters",
+    -1802377514
+  ],
+  [
+    "external upickle.implicits.Generated",
+    1591401025
+  ],
+  [
+    "external upickle.implicits.Readers",
+    -2013354003
+  ],
+  [
+    "external upickle.implicits.WritersVersionSpecific",
+    1591401025
+  ],
+  [
+    "external upickle.implicits.LowPriWriters",
+    -1802377514
+  ],
+  [
+    "external upickle.implicits.Writers",
+    479235779
+  ],
+  [
+    "external upickle.core.Annotator",
+    -901188757
+  ],
+  [
+    "external upickle.LowPriReadWriters",
+    -901188757
+  ],
+  [
+    "external upickle.JsReadWriters",
+    -210976489
+  ],
+  [
+    "external upickle.WebJson",
+    -1802377514
+  ],
+  [
+    "external upickle.Api",
+    2127919605
+  ],
+  [
+    "external upickle.AttributeTagged",
+    1226730848
+  ],
+  [
+    "external upickle.default$",
+    325542091
+  ],
+  [
+    "call upickle.default$#ReadWriter()upickle.core.Types$ReadWriter$",
+    325542091
+  ],
+  [
+    "call upickle.default$.<clinit>()void",
+    0
+  ],
+  [
+    "call build_.package_$CommonKotlinModule#millModuleBasePath()mill.define.Ctx$BasePath",
+    1591401025
+  ],
+  [
+    "external upickle.core.Types$ReadWriter$",
+    -901188757
+  ],
+  [
+    "call upickle.core.Types$ReadWriter$#join(upickle.core.Types$Reader,upickle.core.Types$Writer)upickle.core.Types$ReadWriter",
+    -210976489
+  ],
+  [
+    "call upickle.default$#StringWriter()upickle.core.Types$Writer",
+    325542091
+  ],
+  [
+    "call upickle.default$#StringReader()upickle.core.Types$Reader",
+    325542091
+  ],
+  [
+    "def build_.package_$CommonKotlinModule.$anonfun$kotlinVersion$3()java.lang.String",
+    1304956582
+  ],
+  [
+    "call build_.package_$CommonKotlinModule.$anonfun$kotlinVersion$3()java.lang.String",
+    1304956582
+  ],
+  [
+    "def build_.package_$CommonKotlinModule.$anonfun$kotlinVersion$2(scala.collection.immutable.Seq,mill.api.Ctx)mill.api.Result",
+    820262932
+  ],
+  [
+    "call build_.package_$CommonKotlinModule.$anonfun$kotlinVersion$2(scala.collection.immutable.Seq,mill.api.Ctx)mill.api.Result",
+    820262932
+  ],
+  [
+    "call upickle.core.Types$ReadWriter$.<clinit>()void",
+    0
+  ],
+  [
+    "call build_.package_$CommonKotlinModule#millModuleShared()mill.define.Ctx$Foreign",
+    1591401025
+  ],
+  [
+    "call build_.package_$CommonKotlinModule#millModuleExternal()mill.define.Ctx$External",
+    1591401025
+  ],
+  [
+    "call build_.package_$CommonKotlinModule#millModuleSegments()mill.define.Segments",
+    1591401025
+  ],
+  [
+    "def build_.package_$CommonKotlinModule.$anonfun$kotlinVersion$1(build_.package_$CommonKotlinModule)mill.define.TargetImpl",
+    -1915970224
+  ],
+  [
+    "call build_.package_$CommonKotlinModule.$anonfun$kotlinVersion$1(build_.package_$CommonKotlinModule)mill.define.TargetImpl",
+    -1915970224
+  ],
+  [
+    "def build_.package_$CommonKotlinModule.$deserializeLambda$(java.lang.invoke.SerializedLambda)java.lang.Object",
+    -1864300791
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$13(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    2061114028
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runMainBackground(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    1338991587
+  ],
+  [
+    "def build_.package_$CommonKotlinModule#build_$package_$CommonKotlinModule$$$outer()build_.package_",
+    947039976
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$47(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    1921450068
+  ],
+  [
+    "call scala.collection.immutable.List$.<clinit>()void",
+    0
+  ],
+  [
+    "external mainargs.arg$",
+    -901188757
+  ],
+  [
+    "call mainargs.arg$#$lessinit$greater$default$6()boolean",
+    -901188757
+  ],
+  [
+    "call mill.package$#millEvaluatorTokenReader()mainargs.TokensReader",
+    1591401025
+  ],
+  [
+    "call mainargs.arg.<clinit>()void",
+    0
+  ],
+  [
+    "call mainargs.main$.<clinit>()void",
+    0
+  ],
+  [
+    "call mainargs.ArgSig$.<clinit>()void",
+    0
+  ],
+  [
+    "external scala.annotation.StaticAnnotation",
+    -901188757
+  ],
+  [
+    "external scala.annotation.ConstantAnnotation",
+    -1802377514
+  ],
+  [
+    "external scala.annotation.ClassfileAnnotation",
+    1591401025
+  ],
+  [
+    "external scala.annotation.Annotation",
+    -901188757
+  ],
+  [
+    "external mainargs.arg",
+    690212268
+  ],
+  [
+    "call mainargs.arg!<init>(java.lang.String,char,java.lang.String,boolean,boolean,boolean)void",
+    1380424536
+  ],
+  [
+    "external scala.Product3",
+    1591401025
+  ],
+  [
+    "external scala.Tuple3",
+    -210976489
+  ],
+  [
+    "call scala.Tuple3!<init>(java.lang.Object,java.lang.Object,java.lang.Object)void",
+    -1112165246
+  ],
+  [
+    "call mainargs.arg$#$lessinit$greater$default$2()char",
+    -901188757
+  ],
+  [
+    "call mainargs.TokensReader$StringRead$.<clinit>()void",
+    0
+  ],
+  [
+    "external scala.collection.immutable.List$",
+    -210976489
+  ],
+  [
+    "call scala.collection.immutable.List$#apply(scala.collection.immutable.Seq)java.lang.Object",
+    -1265858934
+  ],
+  [
+    "call scala.None$.<clinit>()void",
+    0
+  ],
+  [
+    "external mainargs.main$",
+    -901188757
+  ],
+  [
+    "call mainargs.main$#$lessinit$greater$default$2()java.lang.String",
+    -901188757
+  ],
+  [
+    "call mainargs.arg$#$lessinit$greater$default$4()boolean",
+    -901188757
+  ],
+  [
+    "call mainargs.TokensReader$.<clinit>()void",
+    0
+  ],
+  [
+    "external mainargs.TokensReader",
+    -901188757
+  ],
+  [
+    "external mainargs.TokensReader$Terminal",
+    -1802377514
+  ],
+  [
+    "external mainargs.TokensReader$ShortNamed",
+    1591401025
+  ],
+  [
+    "external mainargs.TokensReader$Simple",
+    690212268
+  ],
+  [
+    "external mainargs.TokensReader$",
+    -901188757
+  ],
+  [
+    "call mainargs.TokensReader$#LeftoverRead(mainargs.TokensReader$Simple)mainargs.TokensReader$Leftover",
+    -210976489
+  ],
+  [
+    "call mainargs.arg$#$lessinit$greater$default$1()java.lang.String",
+    -901188757
+  ],
+  [
+    "external mainargs.main",
+    690212268
+  ],
+  [
+    "call mainargs.main!<init>(java.lang.String,java.lang.String)void",
+    1380424536
+  ],
+  [
+    "call mainargs.arg$.<clinit>()void",
+    0
+  ],
+  [
+    "external mainargs.ArgSig$",
+    -1802377514
+  ],
+  [
+    "call mainargs.ArgSig$#create(java.lang.String,mainargs.arg,scala.Option,mainargs.TokensReader)mainargs.ArgSig",
+    -1534118224
+  ],
+  [
+    "call mainargs.main$#$lessinit$greater$default$1()java.lang.String",
+    -901188757
+  ],
+  [
+    "external mainargs.MainData$",
+    -1802377514
+  ],
+  [
+    "call mainargs.MainData$#create(java.lang.String,mainargs.main,scala.collection.immutable.Seq,scala.Function2)mainargs.MainData",
+    1916943116
+  ],
+  [
+    "call mainargs.arg$#$lessinit$greater$default$3()java.lang.String",
+    -901188757
+  ],
+  [
+    "call mainargs.MainData.<clinit>()void",
+    0
+  ],
+  [
+    "call scala.Tuple3.<clinit>()void",
+    0
+  ],
+  [
+    "call mainargs.MainData$.<clinit>()void",
+    0
+  ],
+  [
+    "call mainargs.main.<clinit>()void",
+    0
+  ],
+  [
+    "call mainargs.arg$#$lessinit$greater$default$5()boolean",
+    -901188757
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$1()scala.Tuple3",
+    191831396
+  ],
+  [
+    "call mill.scalalib.SemanticDbJavaModule.compiledClassesAndSemanticDbFiles$(mill.scalalib.SemanticDbJavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#compiledClassesAndSemanticDbFiles()mill.define.Target",
+    -1014122827
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#resolvedIvyDeps()mill.define.Target",
+    -1413314800
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$59(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    551382535
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.kotlinExplicitApi$(mill.kotlinlib.KotlinModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#kotlinExplicitApi()mill.define.Target",
+    1324939015
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$3(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    487349980
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#dokkaOptions()mill.define.Target",
+    1245876511
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#prependShellScript()mill.define.Target",
+    1998945951
+  ],
+  [
+    "call mill.scalalib.JavaModule.runIvyDeps$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runIvyDeps()mill.define.Target",
+    857727953
+  ],
+  [
+    "call mill.scalalib.JavaModule.zincIncrementalCompilation$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#zincIncrementalCompilation()mill.define.Target",
+    -338738493
+  ],
+  [
+    "call mill.scalalib.SemanticDbJavaModule.semanticDbEnablePluginScalacOptions$(mill.scalalib.SemanticDbJavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#semanticDbEnablePluginScalacOptions()mill.define.Target",
+    -1096686852
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#zincAuxiliaryClassFileExtensions()mill.define.Target",
+    -339133928
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#dokkaVersion()mill.define.Target",
+    1375162920
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#testLocal(scala.collection.immutable.Seq)mill.define.Command",
+    1258061962
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#jar()mill.define.Target",
+    -1039338874
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#compileResources()mill.define.Target",
+    -2060865363
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.kotlinApiVersion$(mill.kotlinlib.KotlinModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#kotlinApiVersion()mill.define.Target",
+    -1828668005
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#allLocalMainClasses()mill.define.Target",
+    -976422150
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mandatoryJavacOptions()mill.define.Target",
+    510286092
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$super$runMainLocal(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    1918192284
+  ],
+  [
+    "call mill.scalalib.JavaModule.localRunClasspath$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#localRunClasspath()mill.define.Target",
+    603759531
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#semanticDbVersion()mill.define.Target",
+    -1271668969
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$super$runMainBackground(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    1288379579
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$6(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    -2140832666
+  ],
+  [
+    "call mill.scalalib.JavaModule.upstreamAssembly$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#upstreamAssembly()mill.define.Target",
+    -1980024014
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$45(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    1511134896
+  ],
+  [
+    "call mill.scalalib.JavaModule.manifest$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#manifest()mill.define.Target",
+    1941712564
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#finalMainClass()mill.define.Target",
+    1055150092
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#allKotlinSourceFiles()mill.define.Target",
+    1986370627
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$42(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    2108669350
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$5(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    -307938573
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#compileIvyDeps()mill.define.Target",
+    -1807637810
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$super$forkArgs()mill.define.Target",
+    -325894306
+  ],
+  [
+    "call mill.scalalib.JavaModule.sources$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#sources()mill.define.Target",
+    -522923151
+  ],
+  [
+    "call mill.scalalib.SemanticDbJavaModule.semanticDbData$(mill.scalalib.SemanticDbJavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#semanticDbData()mill.define.Target",
+    -1363807465
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.kotlinLanguageVersion$(mill.kotlinlib.KotlinModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#kotlinLanguageVersion()mill.define.Target",
+    -1316888161
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runMain(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -620085134
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.allJavaSourceFiles$(mill.kotlinlib.KotlinModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#allJavaSourceFiles()mill.define.Target",
+    -497516896
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#bspTransitiveCompileClasspath()mill.define.Target",
+    -694372398
+  ],
+  [
+    "call mill.scalalib.TestModule.testCached$(mill.scalalib.TestModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#testCached()mill.define.Target",
+    -1632862821
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#semanticDbJavaVersion()mill.define.Target",
+    -136845320
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#upstreamAssembly()mill.define.Target",
+    -1980024014
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$49(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    -1725344572
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$21(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    -165420688
+  ],
+  [
+    "call build_.package_$components$event$minussystem$#showModuleDeps$default$1()boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$61(build_.package_$components$event$minussystem$)boolean",
+    819646545
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mandatoryIvyDeps()mill.define.Target",
+    1382672833
+  ],
+  [
+    "call mill.scalalib.JavaModule.bspCompileClasspath$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#bspCompileClasspath()mill.define.Target",
+    -1074330333
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$super$run(mill.define.Task)mill.define.Command",
+    -383422519
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#generatedSources()mill.define.Target",
+    472108148
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#docSources()mill.define.Target",
+    -1462048110
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$54(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    1362970989
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#kotlinLanguageVersion()mill.define.Target",
+    -1316888161
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#testOnly(scala.collection.immutable.Seq)mill.define.Command",
+    1850322755
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#transitiveIvyDeps()mill.define.Target",
+    2026531406
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#artifactId()mill.define.Target",
+    1495651404
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#getTestEnvironmentVars(scala.collection.immutable.Seq)mill.define.Command",
+    326623012
+  ],
+  [
+    "external scala.Predef$ArrowAssoc$",
+    -901188757
+  ],
+  [
+    "call scala.Predef$ArrowAssoc$#$minus$greater$extension(java.lang.Object,java.lang.Object)scala.Tuple2",
+    -1802377514
+  ],
+  [
+    "call scala.Predef$.<clinit>()void",
+    0
+  ],
+  [
+    "call scala.Predef$ArrowAssoc$.<clinit>()void",
+    0
+  ],
+  [
+    "external scala.collection.MapFactory",
+    -1802377514
+  ],
+  [
+    "external scala.collection.immutable.Map$",
+    1591401025
+  ],
+  [
+    "call scala.collection.immutable.Map$#apply(scala.collection.immutable.Seq)java.lang.Object",
+    536518580
+  ],
+  [
+    "call mill.define.Discover$.<clinit>()void",
+    0
+  ],
+  [
+    "external scala.LowPriorityImplicits2",
+    -901188757
+  ],
+  [
+    "external scala.LowPriorityImplicits",
+    -901188757
+  ],
+  [
+    "external scala.Predef$",
+    -901188757
+  ],
+  [
+    "call scala.Predef$#ArrowAssoc(java.lang.Object)java.lang.Object",
+    -1802377514
+  ],
+  [
+    "call scala.Tuple2.<clinit>()void",
+    0
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$63()scala.Tuple3",
+    1434144670
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$63()scala.Tuple3",
+    1434144670
+  ],
+  [
+    "call scala.collection.immutable.Map.<clinit>()void",
+    0
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$38(build_.package_$components$event$minusprotocol$)mill.define.Task",
+    643914126
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$#showModuleDeps$default$1()boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$46(build_.package_$components$event$minusprotocol$)boolean",
+    -772882146
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$46(build_.package_$components$event$minusprotocol$)boolean",
+    -772882146
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$46$adapted(build_.package_$components$event$minusprotocol$)java.lang.Object",
+    1407027300
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$46$adapted(build_.package_$components$event$minusprotocol$)java.lang.Object",
+    1407027300
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$#runLocal$default$1()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$41(build_.package_$components$event$minusprotocol$)mill.define.Task",
+    -2138885243
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$41(build_.package_$components$event$minusprotocol$)mill.define.Task",
+    -2138885243
+  ],
+  [
+    "call mill.package$#millArgsTokenReader()mainargs.TokensReader$ShortNamed",
+    1591401025
+  ],
+  [
+    "call mainargs.TokensReader$BooleanRead$.<clinit>()void",
+    0
+  ],
+  [
+    "external mill.scalalib.IvyDepsTreeArgs$",
+    -901188757
+  ],
+  [
+    "call mill.scalalib.IvyDepsTreeArgs$#argsReader()mainargs.ParserForClass",
+    -901188757
+  ],
+  [
+    "call mill.scalalib.IvyDepsTreeArgs$.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.package$#millTaskTokenReader(mainargs.TokensReader$ShortNamed)mainargs.TokensReader",
+    -1112165246
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$35(build_.package_$components$event$minusprotocol$)mill.scalalib.IvyDepsTreeArgs",
+    693438879
+  ],
+  [
+    "call mainargs.TokensReader$FlagRead$.<clinit>()void",
+    0
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$33()scala.Tuple3",
+    -1365918142
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$33()scala.Tuple3",
+    -1365918142
+  ],
+  [
+    "call scala.Function0.<clinit>()void",
+    0
+  ],
+  [
+    "call scala.collection.immutable.Map$.<clinit>()void",
+    0
+  ],
+  [
+    "call build_.package_$components$event$minussystem$#ivyDepsTree$default$1()mill.scalalib.IvyDepsTreeArgs",
+    -797362743
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$50(build_.package_$components$event$minussystem$)mill.scalalib.IvyDepsTreeArgs",
+    -1056445072
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$50(build_.package_$components$event$minussystem$)mill.scalalib.IvyDepsTreeArgs",
+    -1056445072
+  ],
+  [
+    "call build_.package_$components$event$minussystem$#runLocal$default$1()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$56(build_.package_$components$event$minussystem$)mill.define.Task",
+    1618075497
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$56(build_.package_$components$event$minussystem$)mill.define.Task",
+    1618075497
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$61(build_.package_$components$event$minussystem$)boolean",
+    819646545
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$61$adapted(build_.package_$components$event$minussystem$)java.lang.Object",
+    -1784794634
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$61$adapted(build_.package_$components$event$minussystem$)java.lang.Object",
+    -1784794634
+  ],
+  [
+    "call build_.package_$components$event$minussystem$#run$default$1()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$53(build_.package_$components$event$minussystem$)mill.define.Task",
+    -1499354750
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$53(build_.package_$components$event$minussystem$)mill.define.Task",
+    -1499354750
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$48()scala.Tuple3",
+    -398964867
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$48()scala.Tuple3",
+    -398964867
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$1()scala.Tuple3",
+    191831396
+  ],
+  [
+    "external mill.define.Discover$",
+    -1802377514
+  ],
+  [
+    "call mill.define.Discover$#apply2(scala.collection.immutable.Map)mill.define.Discover",
+    -1265858934
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#run$default$1()mill.define.Task",
+    -797362743
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$19(build_.package_$CommonKotlinModule$test$)mill.define.Task",
+    1914463524
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$19(build_.package_$CommonKotlinModule$test$)mill.define.Task",
+    1914463524
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#ivyDepsTree$default$1()mill.scalalib.IvyDepsTreeArgs",
+    -797362743
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$16(build_.package_$CommonKotlinModule$test$)mill.scalalib.IvyDepsTreeArgs",
+    -411409810
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$16(build_.package_$CommonKotlinModule$test$)mill.scalalib.IvyDepsTreeArgs",
+    -411409810
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$22(build_.package_$CommonKotlinModule$test$)mill.define.Task",
+    -945255957
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#showModuleDeps$default$1()boolean",
+    -797362743
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$27(build_.package_$CommonKotlinModule$test$)boolean",
+    461117345
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$27(build_.package_$CommonKotlinModule$test$)boolean",
+    461117345
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$27$adapted(build_.package_$CommonKotlinModule$test$)java.lang.Object",
+    -603601874
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$27$adapted(build_.package_$CommonKotlinModule$test$)java.lang.Object",
+    -603601874
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$14()scala.Tuple3",
+    1967927800
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$14()scala.Tuple3",
+    1967927800
+  ],
+  [
+    "call scala.Function0#apply()java.lang.Object",
+    -901188757
+  ],
+  [
+    "def build_.package_$#millDiscover$lzycompute()mill.define.Discover",
+    -10991271
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#kotlinCompilerIvyDeps()mill.define.Target",
+    -1967022482
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runMainBackground(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    1338991587
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$58(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    1890884673
+  ],
+  [
+    "call mill.scalalib.JavaModule.sourceJar$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#sourceJar()mill.define.Target",
+    -533382909
+  ],
+  [
+    "call mill.scalalib.JavaModule$JavaModuleTests.runUseArgsFile$(mill.scalalib.JavaModule$JavaModuleTests)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runUseArgsFile()mill.define.Target",
+    1791325835
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#sourceJar()mill.define.Target",
+    -533382909
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$super$forkArgs()mill.define.Target",
+    -325894306
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#compiledClassesAndSemanticDbFiles()mill.define.Target",
+    -1014122827
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$60(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    -1233797864
+  ],
+  [
+    "def build_.package_$.$deserializeLambda$(java.lang.invoke.SerializedLambda)java.lang.Object",
+    1887610058
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#prepareOffline(mainargs.Flag)mill.define.Command",
+    788874045
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$34(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    -1353973929
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#transitiveLocalClasspath()mill.define.Target",
+    -1540502577
+  ],
+  [
+    "call mill.scalalib.JavaModule.bspLocalClasspath$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#bspLocalClasspath()mill.define.Target",
+    809809317
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#kotlincHelp(scala.collection.immutable.Seq)mill.define.Command",
+    470423203
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$super$runMainLocal(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    1918192284
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#run(mill.define.Task)mill.define.Command",
+    1672783137
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$40(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    1926713453
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#bspCompileClasspath()mill.define.Target",
+    -1074330333
+  ],
+  [
+    "call mill.scalalib.TestModule.testSandboxWorkingDir$(mill.scalalib.TestModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#testSandboxWorkingDir()mill.define.Target",
+    -49791797
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#localClasspath()mill.define.Target",
+    -1836724073
+  ],
+  [
+    "def build_.package_$#millDiscover()mill.define.Discover",
+    -1835643361
+  ],
+  [
+    "call mill.scalalib.JavaModule.artifactSuffix$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#artifactSuffix()mill.define.Target",
+    544762882
+  ],
+  [
+    "call mill.scalalib.JavaModule.ivyDeps$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$TestModule$Junit5$$super$ivyDeps()mill.define.Target",
+    -855102691
+  ],
+  [
+    "call mill.scalalib.JavaModule.localCompileClasspath$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#localCompileClasspath()mill.define.Target",
+    -740501802
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#localCompileClasspath()mill.define.Target",
+    -740501802
+  ],
+  [
+    "call mill.scalalib.JavaModule.resources$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#resources()mill.define.Target",
+    2093459652
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#launcher()mill.define.Target",
+    1981845900
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#prepareOffline(mainargs.Flag)mill.define.Command",
+    788874045
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#docJarUseArgsFile()mill.define.Target",
+    1136481436
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$32(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    -593197084
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runLocal(mill.define.Task)mill.define.Command",
+    -321769051
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#allIvyDeps()mill.define.Target",
+    1144113682
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#docJar()mill.define.Target",
+    1263682601
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#upstreamAssembly2()mill.define.Target",
+    -826877351
+  ],
+  [
+    "call build_.package_!<init>()void",
+    -528536613
+  ],
+  [
+    "def build_.package_$#<init>()void",
+    1909130455
+  ],
+  [
+    "call build_.package_$!<init>()void",
+    1909130455
+  ],
+  [
+    "def build_.package_$.<clinit>()void",
+    1062287152
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$super$runMain(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    1391747849
+  ],
+  [
+    "call mill.scalalib.RunModule.runBackgroundRestartDelayMillis$(mill.scalalib.RunModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runBackgroundRestartDelayMillis()mill.define.Target",
+    -255159027
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#javadocOptions()mill.define.Target",
+    -1934772947
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#docResources()mill.define.Target",
+    1267220525
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#transitiveCompileClasspath()mill.define.Target",
+    1176369760
+  ],
+  [
+    "call mill.scalalib.JavaModule.bspLocalRunClasspath$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#bspLocalRunClasspath()mill.define.Target",
+    -1586999825
+  ],
+  [
+    "call mill.scalalib.JavaModule.runClasspath$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runClasspath()mill.define.Target",
+    16460528
+  ],
+  [
+    "call mill.scalalib.JavaModule.artifactName$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#artifactName()mill.define.Target",
+    -244875257
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#zincReportCachedProblems()mill.define.Target",
+    -1479655154
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$43(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    -89543074
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#transitiveCompileIvyDeps()mill.define.Target",
+    -51768467
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$9(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    1307448640
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#unmanagedClasspath()mill.define.Target",
+    -1628963957
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#artifactNameParts()mill.define.Target",
+    -1260391496
+  ],
+  [
+    "call mill.scalalib.JavaModule.allSources$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#allSources()mill.define.Target",
+    -791909666
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$super$prepareOffline(mainargs.Flag)mill.define.Command",
+    -745341261
+  ],
+  [
+    "call mill.scalalib.TestModule.defaultCommandName$(mill.scalalib.TestModule)java.lang.String",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#defaultCommandName()java.lang.String",
+    -273574501
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$kotlinlib$KotlinModule$KotlinTests$$$outer()mill.kotlinlib.KotlinModule",
+    623365633
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$JavaModuleTests$$$outer()mill.scalalib.JavaModule",
+    623365633
+  ],
+  [
+    "call mill.scalalib.TestModule.$init$(mill.scalalib.TestModule)void",
+    -797362743
+  ],
+  [
+    "external mill.kotlinlib.KotlinModule$KotlinTests",
+    1799053053
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule$KotlinTests.$init$(mill.kotlinlib.KotlinModule$KotlinTests)void",
+    1799053053
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule$KotlinTests.<clinit>()void",
+    0
+  ],
+  [
+    "call mill.scalalib.TestModule$Junit5.$init$(mill.scalalib.TestModule$Junit5)void",
+    -1698551500
+  ],
+  [
+    "call mill.scalalib.JavaModule$JavaModuleTests.$init$(mill.scalalib.JavaModule$JavaModuleTests)void",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#<init>(build_.package_$CommonKotlinModule)void",
+    -157060063
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$!<init>(build_.package_$CommonKotlinModule)void",
+    -157060063
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#test$lzycompute$2()void",
+    1742476674
+  ],
+  [
+    "call mill.scalalib.IvyDepsTreeArgs.<clinit>()void",
+    0
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$51(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    -1879737140
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#showModuleDeps(boolean)mill.define.Command",
+    -1988833591
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#bspLocalRunClasspath()mill.define.Target",
+    -1586999825
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#prepareOffline(mainargs.Flag)mill.define.Command",
+    788874045
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#compileResources()mill.define.Target",
+    -2060865363
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$super$run(mill.define.Task)mill.define.Command",
+    -383422519
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#ivyDepsTree(mill.scalalib.IvyDepsTreeArgs)mill.define.Command",
+    -1745758511
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#allSources()mill.define.Target",
+    -791909666
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#allSourceFiles()mill.define.Target",
+    907647560
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#resolvedIvyDeps()mill.define.Target",
+    -1413314800
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runLocal(mill.define.Task)mill.define.Command",
+    -321769051
+  ],
+  [
+    "call mill.scalalib.JavaModule.finalMainClassOpt$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#finalMainClassOpt()mill.define.Target",
+    -1036437171
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#build_$package_$CommonKotlinModule$$$outer()build_.package_",
+    16266010
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runIvyDeps()mill.define.Target",
+    857727953
+  ],
+  [
+    "call mill.scalalib.JavaModule.bomIvyDeps$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#bomIvyDeps()mill.define.Target",
+    2084628746
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#upstreamAssembly()mill.define.Target",
+    -1980024014
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#manifest()mill.define.Target",
+    1941712564
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#sourceJar()mill.define.Target",
+    -533382909
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#upstreamCompileOutput()mill.define.Target",
+    1106416825
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#compileIvyDeps()mill.define.Target",
+    -1807637810
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#test$lzycompute$1()void",
+    -559852529
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$!test$lzycompute$1()void",
+    -559852529
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#test()build_.package_$CommonKotlinModule$test$",
+    -936864367
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$57(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    291121126
+  ],
+  [
+    "def build_.package_$CommonKotlinModule#test()build_.package_$CommonKotlinModule$test$",
+    947039976
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#zincAuxiliaryClassFileExtensions()mill.define.Target",
+    -339133928
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#semanticDbPluginIvyDeps()mill.define.Target",
+    -1518070439
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#allSources()mill.define.Target",
+    -791909666
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$super$runMainBackground(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    1288379579
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#bspLocalClasspath()mill.define.Target",
+    809809317
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#dokkaVersion()mill.define.Target",
+    1375162920
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$super$runMain(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    1391747849
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runMain(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -620085134
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$23(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    53325
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#manifest()mill.define.Target",
+    1941712564
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runBackgroundRestartDelayMillis()mill.define.Target",
+    -255159027
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$52(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    2057302382
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#localRunClasspath()mill.define.Target",
+    603759531
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#depManagement()mill.define.Target",
+    -1480851616
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#semanticDbData()mill.define.Target",
+    -1363807465
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runIvyDeps()mill.define.Target",
+    857727953
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$18(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    -834128071
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#kotlinExplicitApi()mill.define.Target",
+    1324939015
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$super$forkWorkingDir()mill.define.Target",
+    1022173733
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#semanticDbEnablePluginScalacOptions()mill.define.Target",
+    -1096686852
+  ],
+  [
+    "call mill.scalalib.JavaModule.compileClasspath$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#compileClasspath()mill.define.Target",
+    -1319297802
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#localRunClasspath()mill.define.Target",
+    603759531
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$4(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    79392764
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$super$runLocal(mill.define.Task)mill.define.Command",
+    614620438
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$36(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    833837040
+  ],
+  [
+    "call mill.scalalib.RunModule.runUseArgsFile$(mill.scalalib.RunModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$super$runUseArgsFile()mill.define.Target",
+    -1799214850
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#transitiveCompileClasspath()mill.define.Target",
+    1176369760
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$55(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    -1773171213
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#kotlinApiVersion()mill.define.Target",
+    -1828668005
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#allJavaSourceFiles()mill.define.Target",
+    -497516896
+  ],
+  [
+    "call mill.scalalib.JavaModule.mainClass$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mainClass()mill.define.Target",
+    -1409985272
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#ivyDeps()mill.define.Target",
+    -855102691
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#bspTransitiveCompileClasspath()mill.define.Target",
+    -694372398
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#compiledClassesAndSemanticDbFiles()mill.define.Target",
+    -1014122827
+  ],
+  [
+    "call build_.package_$components$!event$minussystem$lzycompute$1()void",
+    1206048029
+  ],
+  [
+    "def build_.package_$components$#event$minussystem()build_.package_$components$event$minussystem$",
+    -917130259
+  ],
+  [
+    "call mill.scalalib.RunModule.forkEnv$(mill.scalalib.RunModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$super$forkEnv()mill.define.Target",
+    1647187737
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#bspCompileClassesPath()mill.define.Target",
+    1109157857
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$super$runMainLocal(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    1918192284
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#assembly()mill.define.Target",
+    -1409973946
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#bspCompileClassesPath()mill.define.Target",
+    1109157857
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#semanticDbPluginIvyDeps()mill.define.Target",
+    -1518070439
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#artifactName()mill.define.Target",
+    -244875257
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#upstreamAssemblyClasspath()mill.define.Target",
+    -378221155
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#forkWorkingDir()mill.define.Target",
+    -1392876084
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#bomIvyDeps()mill.define.Target",
+    2084628746
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#zincIncrementalCompilation()mill.define.Target",
+    -338738493
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#localClasspath()mill.define.Target",
+    -1836724073
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#kotlinCompilerVersion()mill.define.Target",
+    1570595821
+  ],
+  [
+    "call mill.scalalib.JavaModule$JavaModuleTests.sources$(mill.scalalib.JavaModule$JavaModuleTests)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#sources()mill.define.Target",
+    354317848
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#compileClasspath()mill.define.Target",
+    -1319297802
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$super$runLocal(mill.define.Task)mill.define.Command",
+    614620438
+  ],
+  [
+    "call mill.scalalib.SemanticDbJavaModule.bspCompiledClassesAndSemanticDbFiles$(mill.scalalib.SemanticDbJavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#bspCompiledClassesAndSemanticDbFiles()mill.define.Target",
+    -1160284860
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$12(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    1100940283
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$2(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    -87839022
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#run(mill.define.Task)mill.define.Command",
+    1672783137
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$super$runClasspath()mill.define.Target",
+    452474749
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#prependShellScript()mill.define.Target",
+    1998945951
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#forkEnv()mill.define.Target",
+    -45167951
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#semanticDbJavaVersion()mill.define.Target",
+    -136845320
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$24(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    764002814
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#resolvedSemanticDbJavaPluginIvyDeps()mill.define.Target",
+    -751660817
+  ],
+  [
+    "call mill.scalalib.JavaModule.runUseArgsFile$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runUseArgsFile()mill.define.Target",
+    343753475
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#sources()mill.define.Target",
+    -522923151
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#docJar()mill.define.Target",
+    1263682601
+  ],
+  [
+    "call mill.define.Cacher#cachedTarget(scala.Function0,sourcecode.Enclosing)java.lang.Object",
+    -421952978
+  ],
+  [
+    "call mill.define.Cacher.<clinit>()void",
+    0
+  ],
+  [
+    "def build_.package_$CommonKotlinModule#kotlinVersion()mill.define.Target",
+    351696946
+  ],
+  [
+    "call build_.package_$CommonKotlinModule!kotlinVersion()mill.define.Target",
+    351696946
+  ],
+  [
+    "def build_.package_$CommonKotlinModule.kotlinVersion$(build_.package_$CommonKotlinModule)mill.define.Target",
+    1125924191
+  ],
+  [
+    "call build_.package_$CommonKotlinModule.kotlinVersion$(build_.package_$CommonKotlinModule)mill.define.Target",
+    1125924191
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#kotlinVersion()mill.define.Target",
+    292220175
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#generatedSources()mill.define.Target",
+    472108148
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#showModuleDeps(boolean)mill.define.Command",
+    -1988833591
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runMain(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -620085134
+  ],
+  [
+    "call mill.scalalib.JavaModule$JavaModuleTests.javacOptions$(mill.scalalib.JavaModule$JavaModuleTests)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#javacOptions()mill.define.Target",
+    -1582448723
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#bspLocalClasspath()mill.define.Target",
+    809809317
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$44(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    -88082145
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$64(mill.main.SelectiveExecutionModule,scala.collection.immutable.Seq)mill.define.Command",
+    -741328194
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#forkArgs()mill.define.Target",
+    703594280
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#bspLocalRunClasspath()mill.define.Target",
+    -1586999825
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#dokkaOptions()mill.define.Target",
+    1245876511
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$62(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    789852435
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$super$runUseArgsFile()mill.define.Target",
+    -1799214850
+  ],
+  [
+    "call mill.scalalib.JavaModule.javacOptions$(mill.scalalib.JavaModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#javacOptions()mill.define.Target",
+    954654568
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.kotlinWorkerClasspath$(mill.kotlinlib.KotlinModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#kotlinWorkerClasspath()mill.define.Target",
+    339557765
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$25(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    -2019091211
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runMainLocal(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -1439987951
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runMainLocal(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -1439987951
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#docJarUseArgsFile()mill.define.Target",
+    1136481436
+  ],
+  [
+    "call mill.scalalib.TestModule.testForkGrouping$(mill.scalalib.TestModule)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#testForkGrouping()mill.define.Target",
+    -296158260
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#ivyDeps()mill.define.Target",
+    -855102691
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#javacOptions()mill.define.Target",
+    954654568
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runMainLocal(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -1439987951
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule$KotlinTests.kotlinVersion$(mill.kotlinlib.KotlinModule$KotlinTests)mill.define.Target",
+    1799053053
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#kotlinVersion()mill.define.Target",
+    1686827449
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$super$runUseArgsFile()mill.define.Target",
+    -1799214850
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$kotlinlib$KotlinModule$$super$mandatoryIvyDeps()mill.define.Target",
+    -456796410
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#upstreamCompileOutput()mill.define.Target",
+    1106416825
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#runBackground(scala.collection.immutable.Seq)mill.define.Command",
+    878156296
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#kotlincHelp(scala.collection.immutable.Seq)mill.define.Command",
+    470423203
+  ],
+  [
+    "call mill.scalalib.TestModule$Junit5.discoveredTestClasses$(mill.scalalib.TestModule$Junit5)mill.define.Target",
+    -1698551500
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#discoveredTestClasses()mill.define.Target",
+    -1998622963
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#allJavaSourceFiles()mill.define.Target",
+    -497516896
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#mill$scalalib$JavaModule$$super$forkEnv()mill.define.Target",
+    1647187737
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$11(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    292041079
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#forkEnv()mill.define.Target",
+    -45167951
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#ideaCompileOutput()mill.define.Target",
+    -281871644
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#kotlinWorkerClasspath()mill.define.Target",
+    339557765
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#ideaCompileOutput()mill.define.Target",
+    -281871644
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#kotlinApiVersion()mill.define.Target",
+    -1828668005
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#transitiveJars()mill.define.Target",
+    861386906
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#depManagement()mill.define.Target",
+    -1480851616
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runUseArgsFile()mill.define.Target",
+    343753475
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#kotlinWorkerClasspath()mill.define.Target",
+    339557765
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#semanticDbScalaVersion()mill.define.Target",
+    679227447
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#artifactSuffix()mill.define.Target",
+    544762882
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$super$forkWorkingDir()mill.define.Target",
+    1022173733
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#localCompileClasspath()mill.define.Target",
+    -740501802
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$15(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    -1867218231
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#showModuleDeps(boolean)mill.define.Command",
+    -1988833591
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#artifactName()mill.define.Target",
+    -244875257
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#forkArgs()mill.define.Target",
+    703594280
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#artifactNameParts()mill.define.Target",
+    -1260391496
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule$KotlinTests.kotlinExplicitApi$(mill.kotlinlib.KotlinModule$KotlinTests)mill.define.Target",
+    1799053053
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#kotlinExplicitApi()mill.define.Target",
+    -1448083418
+  ],
+  [
+    "call build_.package_$components$event$minussystem$!test$lzycompute$2()void",
+    1742476674
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#test()build_.package_$CommonKotlinModule$test$",
+    -1442957955
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#semanticDbPluginClasspath()mill.define.Target",
+    693891863
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$26(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    1364600293
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#resolvedRunIvyDeps()mill.define.Target",
+    165495845
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule$KotlinTests.kotlincOptions$(mill.kotlinlib.KotlinModule$KotlinTests)mill.define.Target",
+    1799053053
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#kotlincOptions()mill.define.Target",
+    -1991013992
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#bspTransitiveLocalClasspath()mill.define.Target",
+    1801662637
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$super$runMain(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    1391747849
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mandatoryIvyDeps()mill.define.Target",
+    1382672833
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$8(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    82249770
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#transitiveLocalClasspath()mill.define.Target",
+    -1540502577
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#semanticDbData()mill.define.Target",
+    -1363807465
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#upstreamAssembly2()mill.define.Target",
+    -826877351
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#bomIvyDeps()mill.define.Target",
+    2084628746
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#unmanagedClasspath()mill.define.Target",
+    -1628963957
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#compile()mill.define.Target",
+    -1252695559
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#resources()mill.define.Target",
+    2093459652
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#kotlincOptions()mill.define.Target",
+    836668156
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#finalMainClassOpt()mill.define.Target",
+    -1036437171
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#kotlinCompilerIvyDeps()mill.define.Target",
+    -1967022482
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#ivyDepsTree(mill.scalalib.IvyDepsTreeArgs)mill.define.Command",
+    -1745758511
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#allIvyDeps()mill.define.Target",
+    1144113682
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#bspCompileClasspath()mill.define.Target",
+    -1074330333
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#runClasspath()mill.define.Target",
+    16460528
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$17(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    -557914408
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#allSourceFiles()mill.define.Target",
+    907647560
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#zincReportCachedProblems()mill.define.Target",
+    -1479655154
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mill$scalalib$JavaModule$$super$prepareOffline(mainargs.Flag)mill.define.Command",
+    -745341261
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#artifactTypes()mill.define.Target",
+    1281680994
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#zincIncrementalCompilation()mill.define.Target",
+    -338738493
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#finalMainClassOpt()mill.define.Target",
+    -1036437171
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$31(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    -898932279
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$super$forkEnv()mill.define.Target",
+    1647187737
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#docSources()mill.define.Target",
+    -1462048110
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mill$scalalib$JavaModule$$super$runLocal(mill.define.Task)mill.define.Command",
+    614620438
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#compileClasspath()mill.define.Target",
+    -1319297802
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#semanticDbVersion()mill.define.Target",
+    -1271668969
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule$KotlinTests.kotlinCompilerVersion$(mill.kotlinlib.KotlinModule$KotlinTests)mill.define.Target",
+    1799053053
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#kotlinCompilerVersion()mill.define.Target",
+    1648356567
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#allLocalMainClasses()mill.define.Target",
+    -976422150
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#transitiveJars()mill.define.Target",
+    861386906
+  ],
+  [
+    "call mill.scalalib.JavaModule$JavaModuleTests.resources$(mill.scalalib.JavaModule$JavaModuleTests)mill.define.Target",
+    -797362743
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#resources()mill.define.Target",
+    70800289
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#mainClass()mill.define.Target",
+    -1409985272
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#resolvedRunIvyDeps()mill.define.Target",
+    165495845
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runBackground(scala.collection.immutable.Seq)mill.define.Command",
+    878156296
+  ],
+  [
+    "call build_.MillMiscInfo$#enclosingClasspath()scala.collection.immutable.Seq",
+    -901188757
+  ],
+  [
+    "def build_.MillMiscInfo.enclosingClasspath()scala.collection.immutable.Seq",
+    1970749751
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#artifactSuffix()mill.define.Target",
+    544762882
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#platformSuffix()mill.define.Target",
+    -292602383
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$30(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    959916263
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mandatoryJavacOptions()mill.define.Target",
+    510286092
+  ],
+  [
+    "call build_.MillMiscInfo$#projectRoot()os.Path",
+    -901188757
+  ],
+  [
+    "def build_.MillMiscInfo.projectRoot()os.Path",
+    1994819362
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#kotlinVersion()mill.define.Target",
+    292220175
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runClasspath()mill.define.Target",
+    16460528
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#kotlinLanguageVersion()mill.define.Target",
+    -1316888161
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#transitiveCompileIvyDeps()mill.define.Target",
+    -51768467
+  ],
+  [
+    "def build_.package_$components$event$minusprotocol$#bspCompiledClassesAndSemanticDbFiles()mill.define.Target",
+    -1160284860
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#mainClass()mill.define.Target",
+    -1409985272
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#semanticDbEnablePluginScalacOptions()mill.define.Target",
+    -1096686852
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#runBackgroundRestartDelayMillis()mill.define.Target",
+    -255159027
+  ],
+  [
+    "def build_.package_$.$anonfun$millDiscover$65(mill.main.SelectiveExecutionModule,scala.collection.immutable.Seq)mill.define.Command",
+    633417398
+  ],
+  [
+    "def build_.package_$components$event$minussystem$#bspCompiledClassesAndSemanticDbFiles()mill.define.Target",
+    -1160284860
+  ],
+  [
+    "def build_.package_$CommonKotlinModule$test$#transitiveIvyDeps()mill.define.Target",
+    2026531406
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#runBackground(scala.collection.immutable.Seq)mill.define.Command",
+    878156296
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$28(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    1345911275
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#runMainBackground(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    1338991587
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$13(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    2061114028
+  ],
+  [
+    "call mill.scalalib.TestModule.test$(mill.scalalib.TestModule,scala.collection.immutable.Seq)mill.define.Command",
+    -1852245188
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$9(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    1307448640
+  ],
+  [
+    "call mill.scalalib.TestModule.testLocal$(mill.scalalib.TestModule,scala.collection.immutable.Seq)mill.define.Command",
+    -1852245188
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$3(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    487349980
+  ],
+  [
+    "call mill.scalalib.JavaModule.runBackground$(mill.scalalib.JavaModule,scala.collection.immutable.Seq)mill.define.Command",
+    -1852245188
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$#kotlincHelp(scala.collection.immutable.Seq)mill.define.Command",
+    470423203
+  ],
+  [
+    "call build_.package_$components$event$minussystem$#runMainBackground(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    1338991587
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$45(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    1511134896
+  ],
+  [
+    "call mill.scalalib.RunModule.run$(mill.scalalib.RunModule,mill.define.Task)mill.define.Command",
+    1695227039
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$21(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    -165420688
+  ],
+  [
+    "external mill.main.SelectiveExecutionModule",
+    -1802377514
+  ],
+  [
+    "external java.lang.AutoCloseable",
+    -901188757
+  ],
+  [
+    "external mill.eval.Evaluator",
+    -1802377514
+  ],
+  [
+    "call mill.main.SelectiveExecutionModule#resolve(mill.eval.Evaluator,scala.collection.immutable.Seq)mill.define.Command",
+    -364670177
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$24(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    764002814
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$#runMain(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -620085134
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$#run(mill.define.Task)mill.define.Command",
+    1672783137
+  ],
+  [
+    "call build_.package_$#showNamed(mill.eval.Evaluator,scala.collection.immutable.Seq)mill.define.Command",
+    -1476835423
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$7(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    -927042099
+  ],
+  [
+    "call build_.package_$#path(mill.eval.Evaluator,java.lang.String,java.lang.String)mill.define.Command",
+    268259290
+  ],
+  [
+    "call mill.scalalib.TestModule.testOnly$(mill.scalalib.TestModule,scala.collection.immutable.Seq)mill.define.Command",
+    -1852245188
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$55(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    -1773171213
+  ],
+  [
+    "call build_.package_$#visualizePlan(mill.eval.Evaluator,scala.collection.immutable.Seq)mill.define.Command",
+    -1476835423
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$60(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    -1233797864
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$59(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    551382535
+  ],
+  [
+    "call build_.package_$components$event$minussystem$#runMainLocal(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -1439987951
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$64(mill.main.SelectiveExecutionModule,scala.collection.immutable.Seq)mill.define.Command",
+    -741328194
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$36(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    833837040
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$58(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    1890884673
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#testLocal(scala.collection.immutable.Seq)mill.define.Command",
+    1258061962
+  ],
+  [
+    "call build_.package_$components$event$minussystem$#runLocal(mill.define.Task)mill.define.Command",
+    -321769051
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#runMainLocal(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -1439987951
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$37(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    1354053152
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$34(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    -1353973929
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$51(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    -1879737140
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$18(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    -834128071
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$#runLocal(mill.define.Task)mill.define.Command",
+    -321769051
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$52(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    2057302382
+  ],
+  [
+    "call build_.package_$#resolve(mill.eval.Evaluator,scala.collection.immutable.Seq)mill.define.Command",
+    -1476835423
+  ],
+  [
+    "call mill.scalalib.TestModule.getTestEnvironmentVars$(mill.scalalib.TestModule,scala.collection.immutable.Seq)mill.define.Command",
+    -1852245188
+  ],
+  [
+    "call build_.package_$components$event$minussystem$#runMain(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -620085134
+  ],
+  [
+    "call mill.scalalib.JavaModule.runLocal$(mill.scalalib.JavaModule,mill.define.Task)mill.define.Command",
+    1695227039
+  ],
+  [
+    "call mill.main.SelectiveExecutionModule#run(mill.eval.Evaluator,scala.collection.immutable.Seq)mill.define.Command",
+    -364670177
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$49(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    -1725344572
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$#ivyDepsTree(mill.scalalib.IvyDepsTreeArgs)mill.define.Command",
+    -1745758511
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$11(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    292041079
+  ],
+  [
+    "call mill.scalalib.JavaModule.runMain$(mill.scalalib.JavaModule,java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -1162032920
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$10(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    -1212200041
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$40(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    1926713453
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$26(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    1364600293
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$23(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    53325
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$25(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    -2019091211
+  ],
+  [
+    "call build_.package_$components$event$minussystem$#kotlincHelp(scala.collection.immutable.Seq)mill.define.Command",
+    470423203
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$#prepareOffline(mainargs.Flag)mill.define.Command",
+    788874045
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$29(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    55778212
+  ],
+  [
+    "call build_.package_$components$event$minussystem$#runBackground(scala.collection.immutable.Seq)mill.define.Command",
+    878156296
+  ],
+  [
+    "external mainargs.Flag",
+    690212268
+  ],
+  [
+    "call mill.scalalib.OfflineSupportModule.prepareOffline$(mill.scalalib.OfflineSupportModule,mainargs.Flag)mill.define.Command",
+    -1112165246
+  ],
+  [
+    "call build_.package_$!millDiscover$lzycompute()mill.define.Discover",
+    -10991271
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$6(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    -2140832666
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$31(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    -898932279
+  ],
+  [
+    "call build_.package_$#version()mill.define.Command",
+    1380424536
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$2(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    -87839022
+  ],
+  [
+    "call mill.scalalib.RunModule.runLocal$(mill.scalalib.RunModule,mill.define.Task)mill.define.Command",
+    1695227039
+  ],
+  [
+    "call build_.package_$#visualize(mill.eval.Evaluator,scala.collection.immutable.Seq)mill.define.Command",
+    -1476835423
+  ],
+  [
+    "call build_.package_$#inspect(mill.eval.Evaluator,scala.collection.immutable.Seq)mill.define.Command",
+    -1476835423
+  ],
+  [
+    "call build_.package_$components$event$minussystem$#prepareOffline(mainargs.Flag)mill.define.Command",
+    788874045
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#prepareOffline(mainargs.Flag)mill.define.Command",
+    788874045
+  ],
+  [
+    "call mill.scalalib.JavaModule.showModuleDeps$(mill.scalalib.JavaModule,boolean)mill.define.Command",
+    -797362743
+  ],
+  [
+    "call build_.package_$#show(mill.eval.Evaluator,scala.collection.immutable.Seq)mill.define.Command",
+    -1476835423
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$65(mill.main.SelectiveExecutionModule,scala.collection.immutable.Seq)mill.define.Command",
+    633417398
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#showModuleDeps(boolean)mill.define.Command",
+    -1988833591
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#runMain(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -620085134
+  ],
+  [
+    "call mill.kotlinlib.KotlinModule.kotlincHelp$(mill.kotlinlib.KotlinModule,scala.collection.immutable.Seq)mill.define.Command",
+    -1852245188
+  ],
+  [
+    "call build_.package_$components$event$minussystem$#showModuleDeps(boolean)mill.define.Command",
+    -1988833591
+  ],
+  [
+    "call mill.scalalib.RunModule.runMainBackground$(mill.scalalib.RunModule,java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -1162032920
+  ],
+  [
+    "call build_.package_$#init(mill.eval.Evaluator,scala.collection.immutable.Seq)mill.define.Command",
+    -1476835423
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$43(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    -89543074
+  ],
+  [
+    "call mill.scalalib.JavaModule.prepareOffline$(mill.scalalib.JavaModule,mainargs.Flag)mill.define.Command",
+    -107150475
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$32(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    -593197084
+  ],
+  [
+    "call mill.main.SelectiveExecutionModule#prepare(mill.eval.Evaluator,scala.collection.immutable.Seq)mill.define.Command",
+    -364670177
+  ],
+  [
+    "call mill.scalalib.JavaModule.runMainBackground$(mill.scalalib.JavaModule,java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -1162032920
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$4(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    79392764
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#test(scala.collection.immutable.Seq)mill.define.Command",
+    -2059058753
+  ],
+  [
+    "call build_.package_$components$event$minussystem$#run(mill.define.Task)mill.define.Command",
+    1672783137
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$#runMainLocal(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -1439987951
+  ],
+  [
+    "call build_.package_$#shutdown()mill.define.Command",
+    1380424536
+  ],
+  [
+    "call mill.scalalib.JavaModule.runMainLocal$(mill.scalalib.JavaModule,java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -1162032920
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$#showModuleDeps(boolean)mill.define.Command",
+    -1988833591
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#kotlinVersion()mill.define.Target",
+    1686827449
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$66(mill.main.SelectiveExecutionModule,scala.collection.immutable.Seq)mill.define.Command",
+    1864931664
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$8(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    82249770
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#getTestEnvironmentVars(scala.collection.immutable.Seq)mill.define.Command",
+    326623012
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$57(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    291121126
+  ],
+  [
+    "call build_.package_$#plan(mill.eval.Evaluator,scala.collection.immutable.Seq)mill.define.Command",
+    -1476835423
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$30(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    959916263
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$15(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    -1867218231
+  ],
+  [
+    "external mill.scalalib.IvyDepsTreeArgs",
+    -901188757
+  ],
+  [
+    "call mill.scalalib.JavaModule.ivyDepsTree$(mill.scalalib.JavaModule,mill.scalalib.IvyDepsTreeArgs)mill.define.Command",
+    -1698551500
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$44(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    -88082145
+  ],
+  [
+    "call build_.package_$#clean(mill.eval.Evaluator,scala.collection.immutable.Seq)mill.define.Command",
+    -1476835423
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#ivyDepsTree(mill.scalalib.IvyDepsTreeArgs)mill.define.Command",
+    -1745758511
+  ],
+  [
+    "call mill.scalalib.RunModule.runMain$(mill.scalalib.RunModule,java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -1162032920
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$47(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    1921450068
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$12(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    1100940283
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$62(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    789852435
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$#runBackground(scala.collection.immutable.Seq)mill.define.Command",
+    878156296
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#run(mill.define.Task)mill.define.Command",
+    1672783137
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$20(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    -180624962
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$54(build_.package_$components$event$minussystem$,scala.collection.immutable.Seq)mill.define.Command",
+    1362970989
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$42(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    2108669350
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#runLocal(mill.define.Task)mill.define.Command",
+    -321769051
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#kotlincHelp(scala.collection.immutable.Seq)mill.define.Command",
+    470423203
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$5(build_.package_$,scala.collection.immutable.Seq)mill.define.Command",
+    -307938573
+  ],
+  [
+    "call build_.package_$CommonKotlinModule$test$#testOnly(scala.collection.immutable.Seq)mill.define.Command",
+    1850322755
+  ],
+  [
+    "call mill.scalalib.RunModule.runMainLocal$(mill.scalalib.RunModule,java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    -1162032920
+  ],
+  [
+    "call build_.package_$components$event$minusprotocol$#runMainBackground(java.lang.String,scala.collection.immutable.Seq)mill.define.Command",
+    1338991587
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$39(build_.package_$components$event$minusprotocol$,scala.collection.immutable.Seq)mill.define.Command",
+    1515245612
+  ],
+  [
+    "call build_.package_$.$anonfun$millDiscover$17(build_.package_$CommonKotlinModule$test$,scala.collection.immutable.Seq)mill.define.Command",
+    -557914408
+  ],
+  [
+    "call mill.scalalib.JavaModule.run$(mill.scalalib.JavaModule,mill.define.Task)mill.define.Command",
+    1695227039
+  ],
+  [
+    "call build_.package_$components$event$minussystem$#ivyDepsTree(mill.scalalib.IvyDepsTreeArgs)mill.define.Command",
+    -1745758511
+  ],
+  [
+    "external mainargs.TokensReader$Flag",
+    1591401025
+  ],
+  [
+    "external mainargs.TokensReader$FlagRead$",
+    690212268
+  ],
+  [
+    "external mill.api.Ctx$Log",
+    -901188757
+  ],
+  [
+    "external mainargs.TokensReader$StringRead$",
+    -210976489
+  ],
+  [
+    "external mill.api.Loose$",
+    -901188757
+  ],
+  [
+    "external scala.Product2",
+    1591401025
+  ],
+  [
+    "external mill.api.Ctx$Workspace",
+    -901188757
+  ],
+  [
+    "external mill.scalalib.Dep",
+    690212268
+  ],
+  [
+    "external mill.api.Ctx$Env",
+    -901188757
+  ],
+  [
+    "external mill.api.Ctx$Home",
+    -901188757
+  ],
+  [
+    "external mill.api.Ctx$Args",
+    -901188757
+  ],
+  [
+    "external mill.api.Ctx",
+    -2013354003
+  ],
+  [
+    "external scala.runtime.BoxesRunTime",
+    -901188757
+  ],
+  [
+    "external scala.Tuple2",
+    -210976489
+  ],
+  [
+    "external mainargs.MainData",
+    690212268
+  ],
+  [
+    "external mill.define.Target$",
+    1591401025
+  ],
+  [
+    "external scala.None$",
+    -210976489
+  ],
+  [
+    "external scala.collection.immutable.Nil$",
+    -500209150
+  ],
+  [
+    "external mainargs.TokensReader$BooleanRead$",
+    -210976489
+  ]
+]

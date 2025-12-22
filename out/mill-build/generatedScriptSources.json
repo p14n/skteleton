@@ -1,0 +1,15 @@
+{
+    "value": {
+        "wrapped": [
+            "ref:v0:a41e2fcf:/Users/dean.chapman/dev/experiment/skteleton/out/mill-build/generatedScriptSources.dest/wrapped"
+        ],
+        "support": [
+            "ref:v0:bc190272:/Users/dean.chapman/dev/experiment/skteleton/out/mill-build/generatedScriptSources.dest/support"
+        ],
+        "resources": [
+            "ref:v0:c984eca8:/Users/dean.chapman/dev/experiment/skteleton/out/mill-build/generatedScriptSources.dest/resources"
+        ]
+    },
+    "valueHash": 1661175588,
+    "inputsHash": -912563947
+}

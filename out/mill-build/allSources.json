@@ -1,0 +1,9 @@
+{
+    "value": [
+        "ref:v0:31434bfd:/Users/dean.chapman/dev/experiment/skteleton/build.mill",
+        "ref:v0:c984eca8:/Users/dean.chapman/dev/experiment/skteleton/mill-build/src",
+        "ref:v0:bc190272:/Users/dean.chapman/dev/experiment/skteleton/out/mill-build/generatedScriptSources.dest/support"
+    ],
+    "valueHash": -1016545551,
+    "inputsHash": -727208639
+}
