@@ -1,8 +1,0 @@
-{
-    "value": [
-        "org.jetbrains.kotlin:kotlin-stdlib:2.0.21",
-        "com.github.sbt.junit:jupiter-interface:0.13.3"
-    ],
-    "valueHash": 1104790679,
-    "inputsHash": -1740694285
-}

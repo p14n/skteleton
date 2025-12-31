@@ -1,1 +1,44 @@
-out
+# Mill build output
+out/
+
+# Kotlin/JVM
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+
+# Gradle (if used)
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Test output
+*.test
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+*~

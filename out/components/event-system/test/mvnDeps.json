@@ -1,8 +1,0 @@
-{
-    "value": [
-        "org.jetbrains.kotlin:kotlin-test-junit5:2.0.21",
-        "org.junit.jupiter:junit-jupiter:5.10.3"
-    ],
-    "valueHash": -799231529,
-    "inputsHash": 343806936
-}
