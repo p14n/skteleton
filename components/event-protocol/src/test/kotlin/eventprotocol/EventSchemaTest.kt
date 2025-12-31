@@ -30,7 +30,7 @@ class EventSchemaTest {
         )
         
         // Assert
-        assertEquals(eventId, "12")
+        assertEquals(eventId, event.eventId)
         assertEquals(type, event.type)
         assertEquals(data, event.data)
         assertEquals(correlationId, event.correlationId)
