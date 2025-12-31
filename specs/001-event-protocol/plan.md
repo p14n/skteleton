@@ -83,7 +83,7 @@ components/event-protocol/
 │               └── EntityDispatchTest.kt
 ```
 
-**Structure Decision**: Component library structure following Mill build conventions. The event-protocol component is standalone with no dependencies (except Kotlin stdlib). Tests are co-located in the test/ directory following JUnit5 conventions. This aligns with the existing `components/event-system` structure which depends on `event-protocol`.
+**Structure Decision**: Component library structure following Gradle build conventions. The event-protocol component is standalone with no dependencies (except Kotlin stdlib). Tests are co-located in the test/ directory following JUnit5 conventions. This aligns with the existing `components/event-system` structure which depends on `event-protocol`.
 
 ## Complexity Tracking
 

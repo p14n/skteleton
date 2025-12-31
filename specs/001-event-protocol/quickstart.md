@@ -16,17 +16,6 @@ Three handler types cover all use cases:
 - **LookupHandler**: Read from database before processing
 - **LookupWriterHandler**: Full CRUD operations (read, process, write)
 
-## Installation
-
-The event-protocol component is available in the `components/` directory:
-
-```kotlin
-// In your Mill build.sc
-object myComponent extends CommonKotlinModule {
-  def moduleDeps = Seq(components.`event-protocol`)
-}
-```
-
 ## Basic Usage
 
 ### 1. Create a Simple Event
@@ -222,5 +211,5 @@ fun `SimpleHandler validates email format`() {
 - See [data-model.md](./data-model.md) for detailed entity definitions
 - See [contracts/event-protocol.kt](./contracts/event-protocol.kt) for API contracts
 - See [spec.md](./spec.md) for complete feature specification
-- Run tests: `mill components.event-protocol.test`
+- Run tests: `./gradlew test`
 

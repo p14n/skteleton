@@ -32,7 +32,7 @@ Follow-up TODOs: None
 
 Every feature MUST be developed as a standalone component module. Components MUST be:
 - Self-contained with clear boundaries and minimal dependencies
-- Independently buildable and testable via Mill build tool
+- Independently buildable and testable via Gradle build tool
 - Documented with clear purpose and API contracts
 - Located in the `components/` directory with consistent structure
 
@@ -65,7 +65,7 @@ All components MUST include JUnit5 test modules using Kotlin test framework. Tes
 MUST include unit, integration, and contract tests as appropriate.
 
 **Rationale**: Test-first development catches defects early, drives better design, provides
-regression safety, and serves as executable documentation. The Mill build structure already
+regression safety, and serves as executable documentation. The Gradle build structure already
 supports this with dedicated test modules.
 
 ### IV. Independent User Stories
@@ -127,9 +127,9 @@ accidental.
 ### Technology Stack
 
 - **Language**: Kotlin 2.0.21
-- **Build Tool**: Mill 1.1.0-RC3
+- **Build Tool**: Gradle 9.2.1
 - **Testing**: JUnit5 with Kotlin test framework
-- **Module Structure**: Mill modules under `components/` directory
+- **Module Structure**: Gradle modules under `components/` directory
 
 ### Component Structure Requirements
 
@@ -143,7 +143,7 @@ components/
         └── [JUnit5 tests]
 ```
 
-Components MUST declare dependencies explicitly via Mill's `moduleDeps` mechanism.
+Components MUST declare dependencies explicitly via Gradle's `dependencies` block.
 
 ### Event-Driven Patterns
 
@@ -181,7 +181,7 @@ All code changes MUST:
 - Include tests for new functionality
 - Update documentation for API changes
 - Verify constitution compliance
-- Build successfully via Mill
+- Build successfully via Gradle
 
 ## Governance
 

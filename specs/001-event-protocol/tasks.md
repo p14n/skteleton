@@ -28,7 +28,7 @@ Component-based structure (Skteleton default):
 - [x] T001 Verify component directory structure exists at components/event-protocol/
 - [x] T002 Create source directory structure: components/event-protocol/src/main/kotlin/eventprotocol/
 - [x] T003 [P] Create test directory structure: components/event-protocol/src/test/kotlin/eventprotocol/
-- [x] T004 [P] Verify Mill build configuration includes event-protocol component in build.mill
+- [x] T004 [P] Verify Gradle build configuration includes event-protocol component
 
 ---
 
@@ -58,19 +58,17 @@ Component-based structure (Skteleton default):
 
 ### Tests for User Story 6 (Test-First Development)
 
-> **BLOCKER**: Mill/Kotlin test configuration issue - JUnit5 dependencies not on compile classpath. Tests written but disabled (.kt.disabled). Need to resolve build.mill configuration before tests can run.
-
-- [~] T012 [P] [US6] Test BaseEvent creation with valid data in components/event-protocol/src/test/kotlin/eventprotocol/EventSchemaTest.kt.disabled (BLOCKED: test config)
-- [~] T013 [P] [US6] Test BaseEvent validation rejects blank eventId in components/event-protocol/src/test/kotlin/eventprotocol/EventSchemaTest.kt.disabled (BLOCKED: test config)
-- [~] T014 [P] [US6] Test BaseEvent validation rejects blank type in components/event-protocol/src/test/kotlin/eventprotocol/EventSchemaTest.kt.disabled (BLOCKED: test config)
-- [~] T015 [P] [US6] Test BaseEvent preserves correlationId in components/event-protocol/src/test/kotlin/eventprotocol/EventSchemaTest.kt.disabled (BLOCKED: test config)
-- [~] T016 [P] [US6] Test BaseEvent auto-generates timestamp in components/event-protocol/src/test/kotlin/eventprotocol/EventSchemaTest.kt.disabled (BLOCKED: test config)
+- [~] T012 [P] [US6] Test BaseEvent creation with valid data in components/event-protocol/src/test/kotlin/eventprotocol/EventSchemaTest.kt
+- [~] T013 [P] [US6] Test BaseEvent validation rejects blank eventId in components/event-protocol/src/test/kotlin/eventprotocol/EventSchemaTest.kt
+- [~] T014 [P] [US6] Test BaseEvent validation rejects blank type in components/event-protocol/src/test/kotlin/eventprotocol/EventSchemaTest.kt
+- [~] T015 [P] [US6] Test BaseEvent preserves correlationId in components/event-protocol/src/test/kotlin/eventprotocol/EventSchemaTest.kt
+- [~] T016 [P] [US6] Test BaseEvent auto-generates timestamp in components/event-protocol/src/test/kotlin/eventprotocol/EventSchemaTest.kt
 
 ### Implementation for User Story 6
 
 - [x] T017 [US6] Implement BaseEvent validation in init block in components/event-protocol/src/main/kotlin/eventprotocol/Event.kt
 - [ ] T018 [US6] Add BaseEvent factory methods and validation helpers in components/event-protocol/src/main/kotlin/eventprotocol/Event.kt
-- [~] T019 [US6] Verify all EventSchemaTest tests pass (BLOCKED: test config)
+- [~] T019 [US6] Verify all EventSchemaTest tests pass
 
 **Checkpoint**: BaseEvent schema complete and validated - ready for handler implementation
 
@@ -248,7 +246,7 @@ Component-based structure (Skteleton default):
 - [ ] T077 [P] Add comprehensive KDoc documentation to all public APIs in components/event-protocol/src/main/kotlin/eventprotocol/
 - [ ] T078 [P] Add edge case tests for null/exception handling across all handlers
 - [ ] T079 [P] Verify quickstart.md examples work with implemented code
-- [ ] T080 Run full test suite: mill components.event-protocol.test
+- [ ] T080 Run full test suite: ./gradlew test
 - [ ] T081 Code review and refactoring for consistency
 - [ ] T082 Performance validation: verify sub-millisecond handler dispatch overhead
 - [ ] T083 Update README or component documentation with usage examples
