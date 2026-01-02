@@ -3,6 +3,7 @@ plugins {
 }
 
 dependencies {
-    // Add any specific dependencies for event-protocol here
+    // Kotlin reflection for metadata extraction
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
 }
 
