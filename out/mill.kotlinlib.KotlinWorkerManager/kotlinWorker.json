@@ -1,9 +1,0 @@
-{
-    "value": {
-        "worker": "mill.kotlinlib.KotlinWorkerManager/kotlinWorker",
-        "toString": "mill.kotlinlib.KotlinWorkerManager@42cf21ff",
-        "inputsHash": -15473410
-    },
-    "valueHash": -15473410,
-    "inputsHash": -15473410
-}
