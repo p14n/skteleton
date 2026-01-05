@@ -17,7 +17,10 @@ import org.slf4j.LoggerFactory
  */
 class EventRouter(
     private val systemDefinition: SystemDefinition,
-    private val handlers: List<HandlerRegistration>
+    private val handlers: List<HandlerRegistration>,
+    private val correlationIdManager: CorrelationIdManager = CorrelationIdManager(),
+    private val interceptorChain: InterceptorChain = InterceptorChain(),
+    private val shutdownCoordinator: ShutdownCoordinator? = null
 ) {
     private val logger = LoggerFactory.getLogger(EventRouter::class.java)
 
@@ -53,19 +56,37 @@ class EventRouter(
         supervisorScope {
             val jobs = matchingHandlers.map { registration ->
                 async {
+                    var outputEvent: BaseEvent? = null
+                    var error: Throwable? = null
+
+                    // Track handler execution
+                    shutdownCoordinator?.handlerStarted()
+
                     try {
+                        // T073: Execute interceptors before handler
+                        val interceptedContext = interceptorChain.executeInterceptors(context, event)
+
                         // T028: Execute handler through adapter
                         val adapter = createHandlerAdapter(registration)
-                        val outputEvent = adapter.execute(context, event)
+                        outputEvent = adapter.execute(interceptedContext, event)
 
                         // T029: Collect output event
                         logger.debug("Handler ${registration.name} produced output event: ${outputEvent.type}")
-                        outputEvent
                     } catch (e: Exception) {
                         // T028: Fault isolation - log error but don't fail other handlers
-                        logger.error("Handler ${registration.name} failed for event ${event.eventId}: ${e.message}", e)
-                        null
+                        // T087: Structured logging with correlation ID
+                        val correlationId = event.correlationId ?: "none"
+                        logger.error("Handler ${registration.name} failed for event ${event.eventId} (correlationId: $correlationId): ${e.message}", e)
+                        error = e
+                    } finally {
+                        // T074: Execute finalisers after handler (always)
+                        interceptorChain.executeFinalisers(context, event, outputEvent, error)
+
+                        // Track handler completion
+                        shutdownCoordinator?.handlerCompleted()
                     }
+
+                    outputEvent
                 }
             }
 
@@ -76,8 +97,19 @@ class EventRouter(
         // T030: Log routing completion
         logger.debug("Event ${event.eventId} routing complete. Produced ${outputEvents.size} output event(s)")
 
-        return outputEvents
+        // T062: Propagate correlation ID to output events
+        val correlationId = correlationIdManager.getCorrelationId(event)
+        val outputEventsWithCorrelation = correlationIdManager.propagateToOutputEvents(correlationId, outputEvents)
+
+        return outputEventsWithCorrelation
     }
+
+    /**
+     * Get the interceptor chain for registering interceptors/finalisers.
+     *
+     * T071, T072: Expose interceptor chain for registration
+     */
+    fun getInterceptorChain(): InterceptorChain = interceptorChain
 
     /**
      * Create appropriate adapter for handler type.

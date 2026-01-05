@@ -9,6 +9,7 @@ import io.vertx.core.eventbus.MessageConsumer
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import org.slf4j.LoggerFactory
+import postevent.PosteventSystem
 import java.util.UUID
 
 /**
@@ -27,6 +28,7 @@ class ChannelSubscriber(
     private val eventRouter: EventRouter,
     private val systemDefinition: SystemDefinition,
     private val eventBus: EventBus,
+    private val posteventSystem: PosteventSystem?,
     private val scope: CoroutineScope,
     private val publishEvent: suspend (String, BaseEvent) -> Unit
 ) {
@@ -107,13 +109,39 @@ class ChannelSubscriber(
     
     /**
      * Subscribe to persistent channel via postevent system.
-     * 
+     *
      * FR-005: Subscribe handlers to postevent system for persistent channels
+     * T054: Implement persistent channel subscription
      */
     private fun subscribePersistent() {
-        // Placeholder for postevent subscription
-        // Will be implemented in T054 (User Story 3)
-        logger.info("Persistent channel subscription for $channelName (placeholder)")
+        if (posteventSystem == null) {
+            logger.error("Cannot subscribe to persistent channel $channelName: postevent system not initialized")
+            return
+        }
+
+        // Subscribe to postevent channel
+        posteventSystem.subscribe(channelName) { event, connection ->
+            logger.debug("Received event ${event.eventId} on persistent channel: $channelName")
+
+            // Create handler context with database connection
+            val context = HandlerContext(
+                requestId = UUID.randomUUID().toString(),
+                metadata = if (connection != null) mapOf("connection" to connection) else emptyMap(),
+                timestamp = System.currentTimeMillis()
+            )
+
+            // Route event through handlers
+            val outputEvents = eventRouter.routeEvent(event, context)
+
+            // Publish output events to their configured channels
+            outputEvents.forEach { outputEvent ->
+                publishOutputEvent(outputEvent)
+            }
+
+            logger.debug("Routed persistent event ${event.eventId}, produced ${outputEvents.size} output events")
+        }
+
+        logger.info("Subscribed to persistent channel: $channelName")
     }
     
     /**

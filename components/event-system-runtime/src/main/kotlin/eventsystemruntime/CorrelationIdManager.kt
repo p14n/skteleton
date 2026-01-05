@@ -16,27 +16,55 @@ class CorrelationIdManager(
 ) {
     /**
      * Ensure event has a correlation ID, generating one if missing.
-     * 
+     *
+     * T061: Generate correlation ID if missing
+     *
      * @param event Event to check
      * @return Event with correlation ID
      */
     fun ensureCorrelationId(event: BaseEvent): BaseEvent {
-        // Placeholder for correlation ID logic
-        // Will be implemented in T061
-        return event
+        if (!enableGeneration) {
+            return event
+        }
+
+        return if (event.correlationId == null) {
+            event.copy(correlationId = UUID.randomUUID().toString())
+        } else {
+            event
+        }
     }
-    
+
     /**
      * Propagate correlation ID to output events.
-     * 
+     *
+     * T062: Propagate correlation ID from input event to output events
+     *
      * @param correlationId Correlation ID to propagate
      * @param outputEvents Output events to update
      * @return Output events with correlation ID
      */
-    fun propagateToOutputEvents(correlationId: String, outputEvents: List<BaseEvent>): List<BaseEvent> {
-        // Placeholder for propagation logic
-        // Will be implemented in T062
-        return outputEvents
+    fun propagateToOutputEvents(correlationId: String?, outputEvents: List<BaseEvent>): List<BaseEvent> {
+        if (correlationId == null) {
+            return outputEvents
+        }
+
+        return outputEvents.map { outputEvent ->
+            if (outputEvent.correlationId == null) {
+                outputEvent.copy(correlationId = correlationId)
+            } else {
+                outputEvent
+            }
+        }
+    }
+
+    /**
+     * Get current correlation ID from event.
+     *
+     * @param event Event to extract correlation ID from
+     * @return Correlation ID or null if not present
+     */
+    fun getCorrelationId(event: BaseEvent): String? {
+        return event.correlationId
     }
 }
 
