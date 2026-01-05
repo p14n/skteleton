@@ -9,6 +9,7 @@
 # Gradle (if used)
 .gradle/
 build/
+out/
 
 # IntelliJ IDEA
 .idea/
