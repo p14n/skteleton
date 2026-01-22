@@ -34,7 +34,7 @@ class ChannelSubscriber(
 ) {
     private val logger = LoggerFactory.getLogger(ChannelSubscriber::class.java)
     private var state: SubscriptionState = SubscriptionState.UNSUBSCRIBED
-    private val consumers = mutableListOf<MessageConsumer<String>>()
+    private val consumers = mutableListOf<MessageConsumer<*>>()
     
     /**
      * Subscribe to the channel based on channel type.

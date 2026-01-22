@@ -46,18 +46,16 @@ class EndToEndIntegrationTest {
             }
             override fun operate(context: HandlerContext, event: BaseEvent, data: LookupData): BaseEvent {
                 executionLog.getOrPut("order") { mutableListOf() }.add("operate")
-                return event
+                // Create payment.requested event
+                return event.deriveEvent(
+                    newType = "payment.requested",
+                    newData = mapOf("orderId" to event.data["orderId"], "amount" to 99.99)
+                )
             }
             override fun write(context: HandlerContext, event: BaseEvent): BaseEvent {
                 executionLog.getOrPut("order") { mutableListOf() }.add("write")
                 latch.countDown()
-                // Produce payment.requested event
-                return BaseEvent(
-                    eventId = UUID.randomUUID().toString(),
-                    type = "payment.requested",
-                    data = mapOf("orderId" to event.data["orderId"], "amount" to 99.99),
-                    correlationId = event.correlationId
-                )
+                return event
             }
             override fun operatorMeta() = HandlerMetadata(
                 receives = setOf("order.placed"),
@@ -73,18 +71,16 @@ class EndToEndIntegrationTest {
             }
             override fun operate(context: HandlerContext, event: BaseEvent, data: LookupData): BaseEvent {
                 executionLog.getOrPut("payment") { mutableListOf() }.add("operate")
-                return event
+                // Create notification.requested event
+                return event.deriveEvent(
+                    newType = "notification.requested",
+                    newData = mapOf("orderId" to event.data["orderId"], "message" to "Payment processed")
+                )
             }
             override fun write(context: HandlerContext, event: BaseEvent): BaseEvent {
                 executionLog.getOrPut("payment") { mutableListOf() }.add("write")
                 latch.countDown()
-                // Produce notification.requested event
-                return BaseEvent(
-                    eventId = UUID.randomUUID().toString(),
-                    type = "notification.requested",
-                    data = mapOf("orderId" to event.data["orderId"], "message" to "Payment processed"),
-                    correlationId = event.correlationId
-                )
+                return event
             }
             override fun operatorMeta() = HandlerMetadata(
                 receives = setOf("payment.requested"),
@@ -100,7 +96,8 @@ class EndToEndIntegrationTest {
             }
             override fun operate(context: HandlerContext, event: BaseEvent, data: LookupData): BaseEvent {
                 executionLog.getOrPut("notification") { mutableListOf() }.add("operate")
-                return event
+                // Create terminal event (no output channels)
+                return event.deriveEvent(newType = "notification.sent")
             }
             override fun write(context: HandlerContext, event: BaseEvent): BaseEvent {
                 executionLog.getOrPut("notification") { mutableListOf() }.add("write")
@@ -109,7 +106,7 @@ class EndToEndIntegrationTest {
             }
             override fun operatorMeta() = HandlerMetadata(
                 receives = setOf("notification.requested"),
-                returns = setOf()
+                returns = setOf("notification.sent")
             )
         }
         
@@ -120,6 +117,8 @@ class EndToEndIntegrationTest {
             .addEvent("order.placed", setOf("orders"))
             .addEvent("payment.requested", setOf("payments"))
             .addEvent("notification.requested", setOf("notifications"))
+            // notification.sent is a terminal event - no output channels
+            .addEvent("notification.sent", setOf())
             .addHandler(orderHandler, "OrderHandler")
             .addHandler(paymentHandler, "PaymentHandler")
             .addHandler(notificationHandler, "NotificationHandler")
@@ -175,33 +174,41 @@ class EndToEndIntegrationTest {
                 assertTrue(context.metadata.containsKey("trace-id"))
                 return LookupData()
             }
-            override fun operate(context: HandlerContext, event: BaseEvent, data: LookupData) = event
+            override fun operate(context: HandlerContext, event: BaseEvent, data: LookupData): BaseEvent {
+                // Create terminal event (no output channels)
+                return event.deriveEvent(newType = "test.completed")
+            }
             override fun write(context: HandlerContext, event: BaseEvent): BaseEvent {
                 latch.countDown()
                 return event
             }
             override fun operatorMeta() = HandlerMetadata(
                 receives = setOf("test.event"),
-                returns = setOf()
+                returns = setOf("test.completed")
             )
         }
-        
+
         val systemDef = SystemDefinition.Builder()
             .addChannel("test-channel", "Test channel")
             .addEvent("test.event", setOf("test-channel"))
+            // test.completed is a terminal event - no output channels
+            .addEvent("test.completed", setOf())
             .addHandler(handler, "TestHandler")
             .build()
         
         val runtime = initialize(systemDef, RuntimeConfig())
-        
-        // Register interceptor
-        runtime.getEventRouter().getInterceptorChain().registerInterceptor { context, event ->
+
+        // Register interceptor - explicitly specify channel name
+        val eventRouter = runtime.getEventRouter("test-channel")
+        val interceptorChain = eventRouter.getInterceptorChain()
+
+        interceptorChain.registerInterceptor { context, event ->
             interceptorExecutions.add("interceptor-${event.eventId}")
             context.copy(metadata = context.metadata + ("trace-id" to UUID.randomUUID().toString()))
         }
-        
-        // Register finaliser
-        runtime.getEventRouter().getInterceptorChain().registerFinaliser { context, event, output, error ->
+
+        // Register finaliser - explicitly specify channel name
+        interceptorChain.registerFinaliser { context, event, output, error ->
             finaliserExecutions.add("finaliser-${event.eventId}")
         }
         
@@ -215,9 +222,11 @@ class EndToEndIntegrationTest {
         runBlocking {
             runtime.publish("test-channel", event)
         }
-        
+
         // Assert
         assertTrue(latch.await(2, TimeUnit.SECONDS), "Handler should complete")
+        // Small delay to ensure async operations complete
+        Thread.sleep(100)
         assertEquals(1, interceptorExecutions.size)
         assertEquals(1, finaliserExecutions.size)
         assertTrue(interceptorExecutions[0].startsWith("interceptor-"))

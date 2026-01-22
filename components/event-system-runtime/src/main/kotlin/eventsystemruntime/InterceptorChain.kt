@@ -86,7 +86,7 @@ class InterceptorChain {
      */
     fun executeInterceptors(context: HandlerContext, event: BaseEvent): HandlerContext {
         var currentContext = context
-        
+
         interceptors.forEach { interceptor ->
             try {
                 currentContext = interceptor(currentContext, event)
@@ -96,7 +96,7 @@ class InterceptorChain {
                 // Continue with current context - don't fail the entire chain
             }
         }
-        
+
         return currentContext
     }
     

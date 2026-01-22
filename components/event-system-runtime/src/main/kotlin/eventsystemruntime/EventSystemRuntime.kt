@@ -266,6 +266,69 @@ class EventSystemRuntime internal constructor(
         logger.info("Event system runtime shutdown complete (graceful: $graceful)")
         return graceful
     }
+
+    /**
+     * Internal setter for state (used by initialize function).
+     */
+    internal fun setState(newState: RuntimeState) {
+        state = newState
+    }
+
+    /**
+     * Internal function to initialize channel subscriptions.
+     */
+    internal suspend fun initializeChannelSubscriptions() {
+        // Group handlers by channel
+        val handlersByChannel = mutableMapOf<String, MutableList<HandlerRegistration>>()
+
+        // For each handler, determine which channels it should subscribe to
+        systemDefinition.handlers.forEach { registration ->
+            // Get all event types this handler receives
+            val eventTypes = registration.metadata.receives
+
+            // Find channels that route these event types
+            systemDefinition.events.forEach { eventDef ->
+                if (eventTypes.contains(eventDef.eventType)) {
+                    eventDef.outputChannels.forEach { channelName ->
+                        handlersByChannel.getOrPut(channelName) { mutableListOf() }.add(registration)
+                    }
+                }
+            }
+        }
+
+        // Create ChannelSubscriber for each channel
+        handlersByChannel.forEach { (channelName, handlers) ->
+            val channelType = if (config.persistentChannels.contains(channelName)) {
+                ChannelType.PERSISTENT
+            } else {
+                ChannelType.TRANSIENT
+            }
+
+            val eventRouter = EventRouter(
+                systemDefinition,
+                handlers,
+                shutdownCoordinator = shutdownCoordinator
+            )
+            val subscriber = ChannelSubscriber(
+                channelName = channelName,
+                channelType = channelType,
+                handlers = handlers,
+                eventRouter = eventRouter,
+                systemDefinition = systemDefinition,
+                eventBus = eventBus,
+                posteventSystem = posteventSystem,
+                scope = scope,
+                publishEvent = { channel, event -> publish(channel, event) }
+            )
+
+            // T018/T019: Subscribe to channel
+            subscriber.subscribe()
+            channelSubscribers[channelName] = subscriber
+
+            // T021: Log subscription
+            logger.info("Subscribed ${handlers.size} handler(s) to channel: $channelName (type: $channelType)")
+        }
+    }
 }
 
 /**
@@ -340,6 +403,10 @@ fun initialize(
     val vertx = Vertx.vertx()
     val eventBus = vertx.eventBus()
 
+    // Register BaseEvent codec for Vert.x EventBus
+    eventBus.registerDefaultCodec(BaseEvent::class.java, BaseEventCodec())
+    logger.debug("Registered BaseEvent codec with EventBus")
+
     // Create coroutine scope
     val scope = CoroutineScope(Dispatchers.Default + SupervisorJob())
 
@@ -373,66 +440,10 @@ fun initialize(
         runtime.initializeChannelSubscriptions()
     }
 
-    runtime.state = RuntimeState.RUNNING
+    runtime.setState(RuntimeState.RUNNING)
     logger.info("Event system runtime initialized successfully")
 
     return runtime
-}
-
-/**
- * Internal function to initialize channel subscriptions.
- */
-private suspend fun EventSystemRuntime.initializeChannelSubscriptions() {
-    // Group handlers by channel
-    val handlersByChannel = mutableMapOf<String, MutableList<HandlerRegistration>>()
-
-    // For each handler, determine which channels it should subscribe to
-    systemDefinition.handlers.forEach { registration ->
-        // Get all event types this handler receives
-        val eventTypes = registration.metadata.receives
-
-        // Find channels that route these event types
-        systemDefinition.events.forEach { eventDef ->
-            if (eventTypes.contains(eventDef.eventType)) {
-                eventDef.outputChannels.forEach { channelName ->
-                    handlersByChannel.getOrPut(channelName) { mutableListOf() }.add(registration)
-                }
-            }
-        }
-    }
-
-    // Create ChannelSubscriber for each channel
-    handlersByChannel.forEach { (channelName, handlers) ->
-        val channelType = if (config.persistentChannels.contains(channelName)) {
-            ChannelType.PERSISTENT
-        } else {
-            ChannelType.TRANSIENT
-        }
-
-        val eventRouter = EventRouter(
-            systemDefinition,
-            handlers,
-            shutdownCoordinator = shutdownCoordinator
-        )
-        val subscriber = ChannelSubscriber(
-            channelName = channelName,
-            channelType = channelType,
-            handlers = handlers,
-            eventRouter = eventRouter,
-            systemDefinition = systemDefinition,
-            eventBus = eventBus,
-            posteventSystem = posteventSystem,
-            scope = scope,
-            publishEvent = { channel, event -> publish(channel, event) }
-        )
-
-        // T018/T019: Subscribe to channel
-        subscriber.subscribe()
-        channelSubscribers[channelName] = subscriber
-
-        // T021: Log subscription
-        logger.info("Subscribed ${handlers.size} handler(s) to channel: $channelName (type: $channelType)")
-    }
 }
 
 /**
@@ -489,15 +500,6 @@ data class RuntimeStatus(
     val subscribedChannels: List<String>,
     val circuitBreakerStates: Map<String, CircuitBreakerState>
 )
-
-/**
- * Circuit breaker state enum.
- */
-enum class CircuitBreakerState {
-    CLOSED,
-    OPEN,
-    HALF_OPEN
-}
 
 /**
  * Exception thrown when channel is not found.

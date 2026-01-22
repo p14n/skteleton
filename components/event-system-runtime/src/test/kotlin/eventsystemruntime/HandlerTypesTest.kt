@@ -30,10 +30,16 @@ class HandlerTypesTest {
     
     @AfterEach
     fun teardown(testContext: VertxTestContext) {
-        runBlocking {
-            runtime.shutdown()
+        if (::runtime.isInitialized) {
+            runBlocking {
+                runtime.shutdown()
+            }
         }
-        vertx.close().onComplete { testContext.completeNow() }
+        if (::vertx.isInitialized) {
+            vertx.close().onComplete { testContext.completeNow() }
+        } else {
+            testContext.completeNow()
+        }
     }
     
     /**

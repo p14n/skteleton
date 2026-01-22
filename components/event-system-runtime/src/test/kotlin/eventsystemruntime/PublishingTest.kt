@@ -32,10 +32,16 @@ class PublishingTest {
     
     @AfterEach
     fun teardown(testContext: VertxTestContext) {
-        runBlocking {
-            runtime.shutdown()
+        if (::runtime.isInitialized) {
+            runBlocking {
+                runtime.shutdown()
+            }
         }
-        vertx.close().onComplete { testContext.completeNow() }
+        if (::vertx.isInitialized) {
+            vertx.close().onComplete { testContext.completeNow() }
+        } else {
+            testContext.completeNow()
+        }
     }
     
     /**
@@ -191,13 +197,13 @@ class PublishingTest {
             type = "user.created",
             data = mapOf("userId" to "123")
         )
-        
-        runBlocking {
-            assertDoesNotThrow {
+
+        assertDoesNotThrow {
+            runBlocking {
                 runtime.publish("non-existent-channel", event)
             }
         }
-        
+
         testContext.completeNow()
     }
 }

@@ -29,10 +29,16 @@ class TransientRoutingTest {
     
     @AfterEach
     fun teardown(testContext: VertxTestContext) {
-        runBlocking {
-            runtime.shutdown()
+        if (::runtime.isInitialized) {
+            runBlocking {
+                runtime.shutdown()
+            }
         }
-        vertx.close().onComplete { testContext.completeNow() }
+        if (::vertx.isInitialized) {
+            vertx.close().onComplete { testContext.completeNow() }
+        } else {
+            testContext.completeNow()
+        }
     }
     
     /**
@@ -55,16 +61,18 @@ class TransientRoutingTest {
             .build()
         
         runtime = initialize(systemDef, RuntimeConfig())
-        
-        // Act - Publish event to Vert.x EventBus
+
+        // Act - Publish event via runtime
         val event = BaseEvent(
             eventId = UUID.randomUUID().toString(),
             type = "user.created",
             data = mapOf("userId" to "123", "email" to "test@example.com")
         )
-        
-        vertx.eventBus().publish("user-events.user.created", event)
-        
+
+        runBlocking {
+            runtime.publish("user-events", event)
+        }
+
         // Assert - Handler should be invoked
         testContext.verify {
             // Give some time for async processing
@@ -98,16 +106,18 @@ class TransientRoutingTest {
             .build()
         
         runtime = initialize(systemDef, RuntimeConfig())
-        
+
         // Act
         val event = BaseEvent(
             eventId = UUID.randomUUID().toString(),
             type = "user.created",
             data = mapOf("userId" to "123")
         )
-        
-        vertx.eventBus().publish("user-events.user.created", event)
-        
+
+        runBlocking {
+            runtime.publish("user-events", event)
+        }
+
         // Assert
         testContext.verify {
             Thread.sleep(100)
@@ -149,16 +159,17 @@ class TransientRoutingTest {
             override fun lookup(context: HandlerContext, event: BaseEvent): LookupData {
                 return LookupData()
             }
-            
+
             override fun operate(context: HandlerContext, event: BaseEvent, data: LookupData): BaseEvent {
                 counter.incrementAndGet()
-                return event
+                // Create a new event with the correct output type
+                return event.deriveEvent(newType = returns)
             }
-            
+
             override fun write(context: HandlerContext, event: BaseEvent): BaseEvent {
                 return event
             }
-            
+
             override fun operatorMeta(): HandlerMetadata {
                 return HandlerMetadata(
                     receives = setOf(receives),

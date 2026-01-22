@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.0.21"
+    kotlin("jvm")
     kotlin("plugin.serialization") version "2.0.21"
     `java-library`
 }
@@ -32,7 +32,7 @@ dependencies {
     // Internal dependencies
     implementation(project(":components:event-protocol"))
     implementation(project(":components:system-definition"))
-    implementation("com.skteleton:postevent-vertx:0.1.0")
+    implementation(project(":components:postevent-vertx"))
 
     // Logging
     implementation("org.slf4j:slf4j-api:2.0.9")

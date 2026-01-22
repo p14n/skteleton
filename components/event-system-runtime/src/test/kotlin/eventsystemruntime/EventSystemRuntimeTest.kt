@@ -125,10 +125,10 @@ class EventSystemRuntimeTest {
     
     /**
      * T014: Test missing datasource configuration error.
-     * 
+     *
      * Given: A SystemDefinition specifying persistent channels without datasource
-     * When: Initialization is attempted
-     * Then: The system throws a ConfigurationException
+     * When: RuntimeConfig is created
+     * Then: The system throws an IllegalArgumentException
      */
     @Test
     fun `test missing datasource configuration error`() {
@@ -139,15 +139,13 @@ class EventSystemRuntimeTest {
             .addEvent("order.placed", setOf("order-events"))
             .addHandler(handler, "OrderHandler")
             .build()
-        
-        val config = RuntimeConfig(
-            persistentChannels = setOf("order-events")
-            // Missing datasource!
-        )
-        
-        // Act & Assert
-        assertThrows(ConfigurationException::class.java) {
-            initialize(systemDef, config)
+
+        // Act & Assert - RuntimeConfig constructor should throw
+        assertThrows(IllegalArgumentException::class.java) {
+            RuntimeConfig(
+                persistentChannels = setOf("order-events")
+                // Missing datasource!
+            )
         }
     }
     

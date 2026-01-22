@@ -3,6 +3,8 @@ package eventsystemruntime
 import eventsystemruntime.config.RuntimeConfig
 import io.vertx.core.Vertx
 import kotlinx.coroutines.*
+import kotlin.coroutines.resume
+import kotlin.coroutines.resumeWithException
 import org.slf4j.LoggerFactory
 import java.util.concurrent.atomic.AtomicInteger
 
