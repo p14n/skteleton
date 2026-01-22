@@ -412,7 +412,18 @@ fun initialize(
 
     // Create postevent system if persistent channels are configured
     val posteventSystem = if (config.persistentChannels.isNotEmpty()) {
-        PosteventSystem(vertx, scope)
+        val datasource = config.datasource
+            ?: throw IllegalStateException("Datasource configuration required for persistent channels")
+
+        PosteventSystem(
+            vertx = vertx,
+            scope = scope,
+            jdbcUrl = datasource.jdbcUrl,
+            username = datasource.username,
+            password = datasource.password,
+            maxPoolSize = datasource.maxPoolSize,
+            persistentChannels = config.persistentChannels
+        )
     } else {
         null
     }

@@ -17,6 +17,7 @@ import java.util.UUID
 import java.util.concurrent.atomic.AtomicInteger
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit
+import io.zonky.test.db.postgres.embedded.EmbeddedPostgres
 
 /**
  * Tests for event publishing (User Story 6).
@@ -107,46 +108,53 @@ class PublishingTest {
     fun `test persistent channel publishing`(testContext: VertxTestContext) {
         // This test will be fully implemented when persistent channels are complete (US3)
         // For now, just verify that publish() doesn't throw for persistent channels
-        
-        val handler = object : IHandler {
-            override fun lookup(context: HandlerContext, event: BaseEvent): LookupData = LookupData()
-            override fun operate(context: HandlerContext, event: BaseEvent, data: LookupData): BaseEvent = event
-            override fun write(context: HandlerContext, event: BaseEvent): BaseEvent = event
-            override fun operatorMeta() = HandlerMetadata(
-                receives = setOf("order.placed"),
-                returns = setOf("order.confirmed")
+
+        // Arrange - Start embedded PostgreSQL
+        val embeddedPostgres = EmbeddedPostgres.builder().start()
+
+        try {
+            val handler = object : IHandler {
+                override fun lookup(context: HandlerContext, event: BaseEvent): LookupData = LookupData()
+                override fun operate(context: HandlerContext, event: BaseEvent, data: LookupData): BaseEvent = event
+                override fun write(context: HandlerContext, event: BaseEvent): BaseEvent = event
+                override fun operatorMeta() = HandlerMetadata(
+                    receives = setOf("order.placed"),
+                    returns = setOf("order.confirmed")
+                )
+            }
+
+            val systemDef = SystemDefinition.Builder()
+                .addChannel("order-events", "Order events")
+                .addEvent("order.placed", setOf("order-events"))
+                .addHandler(handler, "OrderHandler")
+                .build()
+
+            val datasource = DataSourceConfig(
+                jdbcUrl = embeddedPostgres.getJdbcUrl("postgres", "postgres"),
+                username = "postgres",
+                password = "postgres"
             )
+
+            runtime = initialize(systemDef, RuntimeConfig(
+                persistentChannels = setOf("order-events"),
+                datasource = datasource
+            ))
+
+            // Act - Should not throw
+            val event = BaseEvent(
+                eventId = UUID.randomUUID().toString(),
+                type = "order.placed",
+                data = mapOf("orderId" to "456")
+            )
+
+            runBlocking {
+                runtime.publish("order-events", event)
+            }
+
+            testContext.completeNow()
+        } finally {
+            embeddedPostgres.close()
         }
-        
-        val systemDef = SystemDefinition.Builder()
-            .addChannel("order-events", "Order events")
-            .addEvent("order.placed", setOf("order-events"))
-            .addHandler(handler, "OrderHandler")
-            .build()
-        
-        val datasource = DataSourceConfig(
-            jdbcUrl = "jdbc:postgresql://localhost:5432/testdb",
-            username = "test",
-            password = "test"
-        )
-        
-        runtime = initialize(systemDef, RuntimeConfig(
-            persistentChannels = setOf("order-events"),
-            datasource = datasource
-        ))
-        
-        // Act - Should not throw
-        val event = BaseEvent(
-            eventId = UUID.randomUUID().toString(),
-            type = "order.placed",
-            data = mapOf("orderId" to "456")
-        )
-        
-        runBlocking {
-            runtime.publish("order-events", event)
-        }
-        
-        testContext.completeNow()
     }
     
     /**

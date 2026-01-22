@@ -7,6 +7,7 @@ import systemdefinition.*
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.AfterEach
+import org.junit.jupiter.api.BeforeEach
 import io.vertx.junit5.VertxExtension
 import io.vertx.junit5.VertxTestContext
 import org.junit.jupiter.api.extension.ExtendWith
@@ -16,24 +17,49 @@ import java.util.UUID
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.atomic.AtomicInteger
+import io.zonky.test.db.postgres.embedded.EmbeddedPostgres
 
 /**
  * Tests for persistent channel functionality (User Story 3).
- * 
+ *
  * These tests verify that events published to persistent channels are:
  * - Stored durably (via postevent system)
  * - Delivered to subscribed handlers
  * - Processed with transactional context
+ *
+ * Uses embedded PostgreSQL for testing database-backed persistent events.
  */
 @ExtendWith(VertxExtension::class)
 class PersistentChannelTest {
-    
+
     private lateinit var runtime: EventSystemRuntime
-    
+    private lateinit var embeddedPostgres: EmbeddedPostgres
+    private lateinit var datasourceConfig: DataSourceConfig
+
+    @BeforeEach
+    fun setup() {
+        // Start embedded PostgreSQL
+        embeddedPostgres = EmbeddedPostgres.builder().start()
+
+        // Create datasource configuration
+        datasourceConfig = DataSourceConfig(
+            jdbcUrl = embeddedPostgres.getJdbcUrl("postgres", "postgres"),
+            username = "postgres",
+            password = "postgres"
+        )
+    }
+
     @AfterEach
     fun teardown() {
         runBlocking {
-            runtime.shutdown()
+            if (::runtime.isInitialized) {
+                runtime.shutdown()
+            }
+        }
+
+        // Stop embedded PostgreSQL
+        if (::embeddedPostgres.isInitialized) {
+            embeddedPostgres.close()
         }
     }
     
@@ -65,19 +91,14 @@ class PersistentChannelTest {
         }
         
         val systemDef = SystemDefinition.Builder()
-            .addChannel("order-events", "Order events")
-            .addEvent("order.placed", setOf("order-events"))
+            .addChannel("order_events", "Order events")
+            .addEvent("order.placed", setOf("order_events"))
             .addHandler(handler, "OrderHandler")
             .build()
-        
-        val datasource = DataSourceConfig(
-            jdbcUrl = "jdbc:postgresql://localhost:5432/testdb",
-            username = "test",
-            password = "test"
-        )
+
         val config = RuntimeConfig(
-            persistentChannels = setOf("order-events"),
-            datasource = datasource
+            persistentChannels = setOf("order_events"),
+            datasource = datasourceConfig
         )
         
         runtime = initialize(systemDef, config)
@@ -90,7 +111,7 @@ class PersistentChannelTest {
         )
         
         runBlocking {
-            runtime.publish("order-events", event)
+            runtime.publish("order_events", event)
         }
         
         // Assert
@@ -127,38 +148,34 @@ class PersistentChannelTest {
         }
         
         val systemDef = SystemDefinition.Builder()
-            .addChannel("order-events", "Order events")
-            .addEvent("order.placed", setOf("order-events"))
+            .addChannel("order_events", "Order events")
+            .addEvent("order.placed", setOf("order_events"))
             .addHandler(handler, "OrderHandler")
             .build()
-        
-        val datasource = DataSourceConfig(
-            jdbcUrl = "jdbc:postgresql://localhost:5432/testdb",
-            username = "test",
-            password = "test"
-        )
+
         val config = RuntimeConfig(
-            persistentChannels = setOf("order-events"),
-            datasource = datasource
+            persistentChannels = setOf("order_events"),
+            datasource = datasourceConfig
         )
-        
+
         runtime = initialize(systemDef, config)
-        
+
         // Act
         val event = BaseEvent(
             eventId = UUID.randomUUID().toString(),
             type = "order.placed",
             data = mapOf("orderId" to "order-123")
         )
-        
+
         runBlocking {
-            runtime.publish("order-events", event)
+            runtime.publish("order_events", event)
         }
         
         // Assert
-        assertTrue(latch.await(2, TimeUnit.SECONDS), "Handler should execute within 2 seconds")
+        assertTrue(latch.await(5, TimeUnit.SECONDS), "Handler should execute within 5 seconds")
         assertNotNull(receivedContext)
-        // Note: In stub implementation, connection is null. In production, it would be a real Connection
+        // With database-backed implementation, connection should be present in metadata
+        assertTrue(receivedContext!!.metadata.containsKey("connection"), "Context should contain database connection")
         testContext.completeNow()
     }
 }

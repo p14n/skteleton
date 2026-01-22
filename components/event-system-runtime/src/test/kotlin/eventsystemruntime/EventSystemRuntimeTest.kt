@@ -14,6 +14,8 @@ import io.vertx.core.Vertx
 import io.vertx.junit5.VertxExtension
 import io.vertx.junit5.VertxTestContext
 import org.junit.jupiter.api.extension.ExtendWith
+import io.zonky.test.db.postgres.embedded.EmbeddedPostgres
+import kotlinx.coroutines.runBlocking
 
 /**
  * Tests for EventSystemRuntime initialization (User Story 1).
@@ -75,33 +77,44 @@ class EventSystemRuntimeTest {
      */
     @Test
     fun `test persistent channel subscription`(testContext: VertxTestContext) {
-        // Arrange
-        val handler = createTestHandler("order.placed", "order.confirmed")
-        val systemDef = SystemDefinition.Builder()
-            .addChannel("order-events", "Order events")
-            .addEvent("order.placed", setOf("order-events"))
-            .addHandler(handler, "OrderHandler")
-            .build()
-        
-        val datasource = DataSourceConfig(
-            jdbcUrl = "jdbc:postgresql://localhost:5432/testdb",
-            username = "test",
-            password = "test"
-        )
-        val config = RuntimeConfig(
-            persistentChannels = setOf("order-events"),
-            datasource = datasource
-        )
-        
-        // Act
-        val runtime = initialize(systemDef, config)
-        
-        // Assert
-        val status = runtime.getStatus()
-        assertEquals(RuntimeState.RUNNING, status.state)
-        assertTrue(status.subscribedChannels.contains("order-events"))
-        
-        testContext.completeNow()
+        // Arrange - Start embedded PostgreSQL
+        val embeddedPostgres = EmbeddedPostgres.builder().start()
+
+        try {
+            val handler = createTestHandler("order.placed", "order.confirmed")
+            val systemDef = SystemDefinition.Builder()
+                .addChannel("order-events", "Order events")
+                .addEvent("order.placed", setOf("order-events"))
+                .addHandler(handler, "OrderHandler")
+                .build()
+
+            val datasource = DataSourceConfig(
+                jdbcUrl = embeddedPostgres.getJdbcUrl("postgres", "postgres"),
+                username = "postgres",
+                password = "postgres"
+            )
+            val config = RuntimeConfig(
+                persistentChannels = setOf("order-events"),
+                datasource = datasource
+            )
+
+            // Act
+            val runtime = initialize(systemDef, config)
+
+            // Assert
+            val status = runtime.getStatus()
+            assertEquals(RuntimeState.RUNNING, status.state)
+            assertTrue(status.subscribedChannels.contains("order-events"))
+
+            // Cleanup
+            runBlocking {
+                runtime.shutdown()
+            }
+
+            testContext.completeNow()
+        } finally {
+            embeddedPostgres.close()
+        }
     }
     
     /**

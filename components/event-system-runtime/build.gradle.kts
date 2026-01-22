@@ -44,6 +44,7 @@ dependencies {
     testImplementation("io.mockk:mockk:1.13.8")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.8.0")
     testImplementation("io.vertx:vertx-junit5:5.0.6")
+    testImplementation("io.zonky.test:embedded-postgres:2.2.0")
 }
 
 tasks.test {
